@@ -1,0 +1,52 @@
+url: /tickets/
+menu:
+  - text: Home
+    url: /
+    highlight: true
+blocks:
+  - type: header
+    title: Entradas
+    description: >-
+      El importe de las entradas va íntegramente a cubrir los costes del evento:
+      ticketing, espacio y comida.
+  - type: tickets
+    id: tickets
+    features:
+      - id: welcome_pack
+        text: Welcome Pack
+      - id: tshirt
+        text: Camiseta
+    tickets:
+      - name: Entrada simple
+        pricing: 20€ + IVA
+        img: /files/tickets/ticket.png
+        buy:
+          text: Buy now
+          url: '#'
+          disabled: false
+        features:
+          - welcome_pack
+      - name: Entrada + Camiseta conmemorativa
+        pricing: 40€ + IVA
+        img: /files/tickets/ticket.png
+        buy:
+          text: Buy now
+          url: '#'
+          disabled: false
+        features:
+          - welcome_pack
+          - tshirt
+      - name: Patreon
+        pricing: 100 + IVA
+        img: /files/tickets/ticket.png
+        buy:
+          text: Buy now
+          url: '#'
+          disabled: false
+        features:
+          - welcome_pack
+          - tshirt
+title: Tickets
+metas:
+  image: ''
+only_state: pre-event

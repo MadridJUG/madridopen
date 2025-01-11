@@ -1,0 +1,251 @@
+menu:
+  - text: Agenda
+    url: '#calendar'
+    highlight: true
+  - text: Lugar
+    url: '#location'
+    highlight: false
+  - text: Partners
+    url: '#partners'
+    highlight: false
+  - text: Contact
+    url: '#contact'
+    highlight: false
+blocks:
+  - type: hero
+    title: MadridJUG OpenSpace
+    intro: 30 Aniversario de Java
+    text: "![29 Aniversario](/files/aniversario29.jpg)\r\n\r\nEn conmemoriación del 30 aniversario de Java, MadridJUG lo celebrará con su comunidad organizando un Open Space donde compartir las experiencias trabajando sobre la JVM"
+  - type: multitrack-calendar
+    title: Agenda
+    id: calendar
+    fullwidth: false
+    days:
+      - title: 25 de Mayo
+        tracks:
+          - title: James Gosling
+            id: Track1
+          - title: Mike Sheridan
+            id: Track2
+          - title: Patrick Naughton
+            id: Track3
+        events:
+          - time: '9:00'
+            title: Recepción y registro
+            id: Recepción y registro
+            speakers: []
+          - time: '9:30'
+            title: ' Keynote: 30 años de Java'
+            speakers: []
+          - time: '10:00'
+            title: ¿Qué es un OpenSpace?
+            speakers: []
+          - time: '10:15'
+            title: Mercadillo de ideas
+            speakers: []
+          - time: '11:00'
+            title: Sesión 1
+            track: Track1
+            speakers: []
+          - time: '11:00'
+            title: Sesión 2
+            track: Track2
+            speakers: []
+          - time: '11:00'
+            title: Sesión 3
+            track: Track3
+            speakers: []
+          - time: '12:00'
+            title: Sesión 4
+            track: Track1
+            speakers: []
+          - time: '12:00'
+            title: Sesión 5
+            track: Track2
+            speakers: []
+          - time: '12:00'
+            title: Sesión 6
+            track: Track3
+            speakers: []
+          - time: '13:00'
+            title: Sesión 7
+            track: Track1
+            speakers: []
+          - time: '13:00'
+            title: Sesión 8
+            track: Track2
+            speakers: []
+          - time: '13:00'
+            title: Sesión 9
+            track: Track3
+            speakers: []
+          - time: '14:00'
+            title: Comida y networking
+            speakers: []
+          - time: '15:30'
+            title: Sesión 10
+            track: Track1
+            speakers: []
+          - time: '15:30'
+            title: Sesión 11
+            track: Track2
+            speakers: []
+          - time: '15:30'
+            title: Sesión 12
+            track: Track3
+            speakers: []
+          - time: '16:30'
+            title: Sesión 13
+            track: Track1
+            speakers: []
+          - time: '16:30'
+            title: Sesión 14
+            track: Track2
+            speakers: []
+          - time: '16:30'
+            title: Sesión 15
+            track: Track3
+            speakers: []
+          - time: '17:30'
+            title: Sesión 16
+            track: Track1
+            speakers: []
+          - time: '17:30'
+            title: Sesión 17
+            track: Track2
+            speakers: []
+          - time: '17:30'
+            title: Sesión 18
+            track: Track3
+            speakers: []
+          - time: '18:30'
+            title: Cierre y retrospectiva
+            speakers: []
+          - time: '19:00'
+            title: Networking
+            speakers: []
+  - type: text
+    title: Awesome TOP event
+    theme: is-light width-box box-border
+    columns: false
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin elementum maximus. Morbi venenatis eros sit amet ultrices venenatis. Etiam id lectus lorem. Nulla porta, purus eget molestie pulvinar, nulla purus vehicula sem, eget ultrices arcu felis sit amet lacus. Duis posuere tincidunt bibendum. Praesent sed tortor a lectus efficitur fermentum. Morbi venenatis ex in arcu pretium, vitae molestie arcu hendrerit.\r\n"
+  - type: location
+    title: Paseo de la Habana 3
+    id: location
+    theme: is-light width-box box-fill
+    embed: >-
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.1123314165472!2d-3.690222317535891!3d40.448164242682424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e47c635d69%3A0x9d584f989c448530!2sP.%C2%BA%20de%20La%20Habana%2C%203%2C%20Chamart%C3%ADn%2C%2028036%20Madrid!5e0!3m2!1ses!2ses!4v1736602638431!5m2!1ses!2ses"
+      width="600" height="450" style="border:0;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    directions:
+      - title: Oficinas Next Digital (Spaces)
+        description: 'C/Panamá 3, Madrid'
+        icon: map-pin
+      - title: Metro
+        description: Nuevos ministerios o Santiago Bernabeu
+        icon: train-simple
+  - type: separator
+    width: is-default
+  - type: speakers
+    title: Speakers
+    speakers:
+      - name: James Gosling
+        id: name-1
+        company: Jubilado
+        image: >-
+          https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQNlnHai_MrsEvVEoEnWxFxPUITz8wVMYQ9WRAgVY71ZuOPKDJsSIFJT2O9bjtmfFMPFSMmdX2XXvLK6lWZYoEUHg
+        links: []
+      - name: Brian Goetz
+        id: name-2
+        company: Oracle
+        role: Arquitecto de Java
+        image: >-
+          https://files.gotocon.com/uploads/portraits/840/square_medium/brian_goetz_1580730216.jpeg
+        links: []
+  - type: logos
+    title: Partners
+    id: partners
+    description: >-
+      El evento no podría celebrarse sin la ayuda de nuestros partners y
+      colaboradores
+    size: medium
+    items:
+      - alt: NextDigital
+        img: >-
+          https://media.licdn.com/dms/image/v2/D4D0BAQH_wvAFOGdlJQ/company-logo_200_200/company-logo_200_200/0/1720433812651/nextdigitalhub_logo?e=2147483647&v=beta&t=PZpI_Yn1ufKgUOYTNgZcUV_4ZPKLkXxU96CWui7X_34
+        url: 'https://www.nextdigital.es/'
+      - alt: JetBrains
+        img: >-
+          https://upload.wikimedia.org/wikipedia/en/thumb/0/08/JetBrains_beam_logo.svg/2048px-JetBrains_beam_logo.svg.png
+        url: 'https://www.jetbrains.com/'
+      - alt: DevBcn
+        img: >-
+          https://pbs.twimg.com/profile_images/1550078630423830528/RPuzTHJG_400x400.jpg
+        url: 'https://www.devbcn.com/'
+      - alt: MadridGUG
+        img: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCrt9_IOkRO83htC7vZj2edZxxjAsxQPXpg&s
+        url: 'https://www.madridgug.com/'
+  - type: separator
+    width: is-default
+  - type: people
+    title: El equipo de MadridJUG
+    description: >-
+      Ésto no sería posible sin la participación de nuestro equipo de
+      coordinadores de MadridJUG.
+    items:
+      - name: Auri
+        img: /files/people/avatar.webp
+      - name: David
+        img: /files/people/avatar.webp
+      - name: Ivan
+        img: /files/people/avatar.webp
+      - name: Duke
+        img: /files/people/avatar.webp
+  - type: separator
+    width: is-full
+  - type: faq
+    title: FAQ
+    theme: is-light width-box box-fill
+    questions:
+      - question: ¿Qué es un OpenSpace?
+        answer: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
+          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
+          libero ut, lobortis ipsum.
+      - question: ¿Debo llevar una charla preparada?
+        answer: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
+          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
+          libero ut, lobortis ipsum.
+      - question: 'Creo que tengo poco que aportar, ¿debería ir?'
+        answer: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
+          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
+          libero ut, lobortis ipsum.
+      - question: ¿Se van a grabar las sesiones?
+        answer: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
+          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
+          libero ut, lobortis ipsum.
+  - type: contact
+    title: Contact
+    id: contact
+    theme: is-light width-box box-fill
+    items:
+      - title: Name
+        info: MadridJUG
+        links:
+          - url: 'mailto:madridjug@gmail.com'
+            icon: envelope
+            text: madridjug@gmail.com
+metas:
+  image: ''
+url: /
+only_state: pre-event
+title: MadridJUG OpenSpace
