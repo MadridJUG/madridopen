@@ -21,7 +21,7 @@ blocks:
     id: calendar
     fullwidth: false
     days:
-      - title: 25 de Mayo
+      - title: 17 de Mayo
         tracks:
           - title: Area James Gosling
             id: Track1
@@ -181,7 +181,7 @@ blocks:
       - name: David
         img: /files/people/DavidGomez.jpg
         url: 'https://www.linkedin.com/in/dgomezg/'
-      - name: Ivan
+      - name: Iván
         img: /files/people/IvanLopez.jpg
         url: 'https://www.linkedin.com/in/ivanlopezmartin/'
       - name: Jero
@@ -221,9 +221,10 @@ blocks:
         info: madridjug-coordinators@googlegroups.com
         links: []
       - title: Redes Sociales
-        info: 'Twitter: [MadridJUG](https://x.com/MadridJUG)'
+        info: "Twitter: [MadridJUG](https://x.com/MadridJUG)\r\n<br/>\r\nBlueSky: [@madridjug.es](https://bsky.app/profile/madridjug.es)"
         links: []
 metas:
   image: ''
 url: /
 only_state: pre-event
+title: JMad OpenSpace
