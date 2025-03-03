@@ -15,7 +15,7 @@ blocks:
   - type: hero
     title: <br/>
     intro: '## JMad OpenSpace'
-    text: "30 Aniversario de Java\r\n\r\n![jmad logo](/files/logos/jmad_logo.jpg)\r\n\r\nEn conmemoriación del 30 aniversario de Java, MadridJUG lo celebrará con su comunidad organizando un Open Space donde compartir las experiencias trabajando sobre la JVM\r\n\r\n![29 Aniversario](/files/Java29.jpg)"
+    text: "### 30 Aniversario de Java\r\n\r\n![JMad logo](/files/logos/JMad.png)\r\n\r\nEn conmemoriación del 30 aniversario de Java, MadridJUG lo celebrará con su comunidad organizando un Open Space donde compartir las experiencias trabajando sobre la JVM\r\n\r\n![29 Aniversario](/files/Java29.jpg)"
   - type: multitrack-calendar
     title: Agenda
     id: calendar
@@ -227,3 +227,4 @@ metas:
   image: ''
 url: /
 only_state: pre-event
+title: JMad OpenSpace
