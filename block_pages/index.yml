@@ -156,18 +156,16 @@ blocks:
     size: medium
     items:
       - alt: Sirviendo Código
-        img: /files/SirviendoCodigo.jpg
+        img: /files/logos/SirviengoCodigo.png
         url: 'https://sirviendocodigo.com/'
       - alt: DevBcn
         img: /files/logos/DevBcn.png
         url: 'https://www.devbcn.com/'
       - alt: NextDigital
-        img: >-
-          https://media.licdn.com/dms/image/v2/D4D0BAQH_wvAFOGdlJQ/company-logo_200_200/company-logo_200_200/0/1720433812651/nextdigitalhub_logo?e=2147483647&v=beta&t=PZpI_Yn1ufKgUOYTNgZcUV_4ZPKLkXxU96CWui7X_34
+        img: /files/logos/NextDigital.png
         url: 'https://www.nextdigital.es/'
       - alt: MadridGUG
-        img: >-
-          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCrt9_IOkRO83htC7vZj2edZxxjAsxQPXpg&s
+        img: /files/logos/MadridGUG.png
         url: 'https://www.madridgug.com/'
   - type: separator
     width: is-default
