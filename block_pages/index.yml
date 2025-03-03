@@ -8,14 +8,14 @@ menu:
   - text: Partners
     url: '#partners'
     highlight: false
-  - text: Contact
+  - text: Contacto
     url: '#contact'
     highlight: false
 blocks:
   - type: hero
-    title: MadridJUG OpenSpace
-    intro: 30 Aniversario de Java
-    text: "![29 Aniversario](/files/aniversario29.jpg)\r\n\r\nEn conmemoriación del 30 aniversario de Java, MadridJUG lo celebrará con su comunidad organizando un Open Space donde compartir las experiencias trabajando sobre la JVM"
+    title: JMad OpenSpace
+    intro: '## JMad OpenSpace'
+    text: "30 Aniversario de Java\r\n\r\n![jmad logo](/files/logos/jmad_logo.jpg)\r\n\r\nEn conmemoriación del 30 aniversario de Java, MadridJUG lo celebrará con su comunidad organizando un Open Space donde compartir las experiencias trabajando sobre la JVM\r\n\r\n![29 Aniversario](/files/Java29.jpg)"
   - type: multitrack-calendar
     title: Agenda
     id: calendar
@@ -23,11 +23,11 @@ blocks:
     days:
       - title: 25 de Mayo
         tracks:
-          - title: James Gosling
+          - title: Area James Gosling
             id: Track1
-          - title: Mike Sheridan
+          - title: Area Oak Project
             id: Track2
-          - title: Patrick Naughton
+          - title: Area Duke
             id: Track3
         events:
           - time: '9:00'
@@ -125,44 +125,28 @@ blocks:
             title: Networking
             speakers: []
   - type: text
-    title: Awesome TOP event
+    title: ¿Qué es un Open Space?
     theme: is-light width-box box-border
     columns: false
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin elementum maximus. Morbi venenatis eros sit amet ultrices venenatis. Etiam id lectus lorem. Nulla porta, purus eget molestie pulvinar, nulla purus vehicula sem, eget ultrices arcu felis sit amet lacus. Duis posuere tincidunt bibendum. Praesent sed tortor a lectus efficitur fermentum. Morbi venenatis ex in arcu pretium, vitae molestie arcu hendrerit.\r\n"
+    text: "Un Open Space o \"desconferencia\" es una forma de organizar reuniones y conferencias que se basa en la autoorganización y la participación activa de todos los asistentes. A diferencia de las conferencias tradicionales, donde se sigue una agenda predefinida, en un Open Space los participantes proponen los temas que les interesan y crean su propia agenda. Esto fomenta la libertad de discusión y permite que surjan ideas innovadoras y soluciones creativas.\r\n\r\nEn un Open Space, todos los participantes son responsables de su propio aprendizaje y de contribuir al aprendizaje de los demás. Se fomenta la colaboración y el intercambio de conocimientos, y se anima a los participantes a moverse libremente entre las diferentes sesiones y a participar en aquellas que les resulten más interesantes. El resultado es un evento dinámico y participativo, donde se generan conversaciones significativas y se construyen redes de colaboración."
   - type: location
     title: Paseo de la Habana 3
     id: location
     theme: is-light width-box box-fill
     embed: >-
       <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.1123314165472!2d-3.690222317535891!3d40.448164242682424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e47c635d69%3A0x9d584f989c448530!2sP.%C2%BA%20de%20La%20Habana%2C%203%2C%20Chamart%C3%ADn%2C%2028036%20Madrid!5e0!3m2!1ses!2ses!4v1736602638431!5m2!1ses!2ses"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.210445183655!2d-3.6925918244706266!3d40.448478953707095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e47c635d69%3A0x9d584f989c448530!2sP.%C2%BA%20de%20La%20Habana%2C%203%2C%20Chamart%C3%ADn%2C%2028036%20Madrid!5e0!3m2!1ses!2ses!4v1741027730101!5m2!1ses!2ses"
       width="600" height="450" style="border:0;" allowfullscreen=""
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     directions:
       - title: Oficinas Next Digital (Spaces)
-        description: 'C/Panamá 3, Madrid'
+        description: 'C/Paseo de la Habana 3, Madrid'
         icon: map-pin
       - title: Metro
         description: Nuevos ministerios o Santiago Bernabeu
         icon: train-simple
   - type: separator
     width: is-default
-  - type: speakers
-    title: Speakers
-    speakers:
-      - name: James Gosling
-        id: name-1
-        company: Jubilado
-        image: >-
-          https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQNlnHai_MrsEvVEoEnWxFxPUITz8wVMYQ9WRAgVY71ZuOPKDJsSIFJT2O9bjtmfFMPFSMmdX2XXvLK6lWZYoEUHg
-        links: []
-      - name: Brian Goetz
-        id: name-2
-        company: Oracle
-        role: Arquitecto de Java
-        image: >-
-          https://files.gotocon.com/uploads/portraits/840/square_medium/brian_goetz_1580730216.jpeg
-        links: []
   - type: logos
     title: Partners
     id: partners
@@ -171,18 +155,16 @@ blocks:
       colaboradores
     size: medium
     items:
+      - alt: Sirviendo Código
+        img: /files/SirviendoCodigo.jpg
+        url: 'https://sirviendocodigo.com/'
+      - alt: DevBcn
+        img: /files/logos/DevBcn.png
+        url: 'https://www.devbcn.com/'
       - alt: NextDigital
         img: >-
           https://media.licdn.com/dms/image/v2/D4D0BAQH_wvAFOGdlJQ/company-logo_200_200/company-logo_200_200/0/1720433812651/nextdigitalhub_logo?e=2147483647&v=beta&t=PZpI_Yn1ufKgUOYTNgZcUV_4ZPKLkXxU96CWui7X_34
         url: 'https://www.nextdigital.es/'
-      - alt: JetBrains
-        img: >-
-          https://upload.wikimedia.org/wikipedia/en/thumb/0/08/JetBrains_beam_logo.svg/2048px-JetBrains_beam_logo.svg.png
-        url: 'https://www.jetbrains.com/'
-      - alt: DevBcn
-        img: >-
-          https://pbs.twimg.com/profile_images/1550078630423830528/RPuzTHJG_400x400.jpg
-        url: 'https://www.devbcn.com/'
       - alt: MadridGUG
         img: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCrt9_IOkRO83htC7vZj2edZxxjAsxQPXpg&s
@@ -196,56 +178,54 @@ blocks:
       coordinadores de MadridJUG.
     items:
       - name: Auri
-        img: /files/people/avatar.webp
+        img: /files/people/AureaMunoz.jpg
+        url: 'https://www.linkedin.com/in/aureamunozhernandez/'
       - name: David
-        img: /files/people/avatar.webp
+        img: /files/people/DavidGomez.jpg
+        url: 'https://www.linkedin.com/in/dgomezg/'
       - name: Ivan
-        img: /files/people/avatar.webp
-      - name: Duke
-        img: /files/people/avatar.webp
+        img: /files/people/IvanLopez.jpg
+        url: 'https://www.linkedin.com/in/ivanlopezmartin/'
+      - name: Jero
+        img: /files/people/JeronimoLopez.jpg
+        url: 'https://www.linkedin.com/in/jerolba/'
   - type: separator
     width: is-full
   - type: faq
     title: FAQ
     theme: is-light width-box box-fill
     questions:
-      - question: ¿Qué es un OpenSpace?
+      - question: ¿Quién organiza el evento?
         answer: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
-          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
-          libero ut, lobortis ipsum.
+          El evento lo montamos un grupo de voluntarios que nos reunimos
+          alrededor de MadridJUG, junto con la ayuda de [Next
+          Digital](https://www.nextdigital.es/), [Siviendo
+          Código](https://sirviendocodigo.com/) y los compañeros de
+          [DevBcn](https://www.devbcn.com/).
       - question: ¿Debo llevar una charla preparada?
         answer: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
-          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
-          libero ut, lobortis ipsum.
+          Puedes preparar una charla y proponerla. Pero deberá salir votada por
+          los asistentes y la sala que esté disponible disponga de
+          proyector/pantalla.
       - question: 'Creo que tengo poco que aportar, ¿debería ir?'
-        answer: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
-          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
-          libero ut, lobortis ipsum.
+        answer: "Por supuesto!! Seguro que sabes muchas cosas que podrás compartir con otros asistentes. \r\n\r\nAdemás, recuerda: la única pregunta estúpida es aquella que se queda sin preguntar."
       - question: ¿Se van a grabar las sesiones?
         answer: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio
-          venenatis, laoreet libero ut, lobortis ipsum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet
-          libero ut, lobortis ipsum.
+          No, debido a la dinámica de las interacciones, donde muchas personas
+          pueden hablar a lo largo de las sesiones, no es posible grabar bien a
+          todo el mundo.
   - type: contact
-    title: Contact
+    title: Contacto
     id: contact
-    theme: is-light width-box box-fill
+    theme: is-light width-box box-border
     items:
-      - title: Name
-        info: MadridJUG
-        links:
-          - url: 'mailto:madridjug@gmail.com'
-            icon: envelope
-            text: madridjug@gmail.com
+      - title: Email
+        info: madridjug-coordinators@googlegroups.com
+        links: []
+      - title: Redes Sociales
+        info: 'Twitter: [MadridJUG](https://x.com/MadridJUG)'
+        links: []
 metas:
   image: ''
 url: /
 only_state: pre-event
-title: MadridJUG OpenSpace

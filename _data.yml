@@ -1,23 +1,23 @@
-title_suffix: MadridJUG OpenSpace
+title_suffix: JMad OpenSpace
 metas:
   title: =title
-  site: TRGCON 24
+  site: JMad OpenSpace
   lang: es
   twitter: null
   color: '#00ab7d'
   generator: true
-  image: /files/img-home.png
+  image: /files/Java29.png
 state: pre-event
 cta:
-  text: Consigue tu entrada
-  url: /tickets/
+  text: Tickets próximamente
+  url: "#"
 footer:
   logo: /files/logos/logo.png
-  copyright: "© 2024<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n[humans.txt](/humans.txt)\r\n"
+  copyright: "© 2025<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n"
   menu:
-    - text: Legal terms
-      href: /legal-terms/
-    - text: Privacy
-      href: /privacy/
+#    - text: Legal terms
+#      href: /legal-terms/
+#    - text: Privacy
+#      href: /privacy/
     - text: Code of conduct
       href: /code-of-conduct/
