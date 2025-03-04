@@ -12,14 +12,31 @@ menu:
     url: '#contact'
     highlight: false
 blocks:
-  - type: imagetext
-    theme: is-secondary width-box box-fill
-    src: /files/logos/JMad.png
-    text: "# JMad OpenSpace\r\n\r\nEn conmemoración del 30 aniversario de Java, MadridJUG quiere rendir homenaje a este lenguaje icónico organizando un evento especial para su comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y participativo que permitirá a los asistentes compartir sus experiencias, debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos los avances más recientes en el mundo del desarrollo en Java."
-  - type: imagetext
-    theme: is-primary width-full box-fill
-    src: /files/grupo-29-aniversario.jpg
-    text: "Este encuentro será una oportunidad única para que desarrolladores de todos los niveles intercambien conocimientos, planteen preguntas y reflexionen sobre el impacto que ha tenido Java a lo largo de estas tres décadas. Desde sus inicios hasta su evolución actual con nuevas versiones y mejoras en rendimiento, el evento servirá como punto de encuentro para entusiastas, profesionales y expertos que deseen profundizar en los desafíos y oportunidades que ofrece la plataforma.\r\n\r\nMadridJUG invita a toda la comunidad a sumarse a esta celebración, en la que podrán no solo aprender y compartir, sino también fortalecer la red de contactos con otros apasionados por Java y su ecosistema. ¡No te lo pierdas!"
+  - type: hero
+    title: JMad OpenSpace
+    intro: 30 Aniversario de Java
+    text: >-
+      ![JMad logo](/files/logos/JMad.png){style="max-width:100%"}
+
+      <br/><br/>
+      En conmemoración del 30 aniversario de Java, MadridJUG quiere rendir homenaje a este lenguaje icónico organizando un evento especial
+      para su comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y participativo que permitirá a los asistentes
+      compartir sus experiencias, debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos los avances más recientes en el
+      mundo del desarrollo en Java.
+
+      <br/><br/>
+      ![29 Aniversario](/files/grupo-29-aniversario.jpg){style="max-width:100%"}
+
+      <br/><br/>
+      Este encuentro será una oportunidad única para que desarrolladores de todos los niveles intercambien conocimientos, planteen preguntas
+      y reflexionen sobre el impacto que ha tenido Java a lo largo de estas tres décadas. Desde sus inicios hasta su evolución actual con
+      nuevas versiones y mejoras en rendimiento, el evento servirá como punto de encuentro para entusiastas, profesionales y expertos que
+      deseen profundizar en los desafíos y oportunidades que ofrece la plataforma.
+
+      <br/><br/>
+      MadridJUG invita a toda la comunidad a sumarse
+      a esta celebración, en la que podrán no solo aprender y compartir, sino también fortalecer la red de contactos con otros apasionados
+      por Java y su ecosistema. ¡No te lo pierdas!
   - type: multitrack-calendar
     title: Agenda
     id: calendar

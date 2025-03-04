@@ -11,8 +11,12 @@
   color: var(--color-dark);
 }
 
-.ly-blocks {
-  margin-top: 0;
+.navbar-menu a.is-highlight::after {
+  background-color: var(--color-alternative);
+}
+
+.block-hero-header {
+  margin-top: 100px;
 }
 
 .navbar-menu a.is-highlight::after {
