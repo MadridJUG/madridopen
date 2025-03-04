@@ -14,10 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Lume Build
-      uses: lumeland/build/gh-pages@main
-
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@main
       env:
