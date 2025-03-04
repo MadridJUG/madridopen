@@ -206,3 +206,4 @@ metas:
 url: /
 only_state: pre-event
 title: JMad OpenSpace
+extra_head: '<meta name="theme-color" content="#d4617c">'
