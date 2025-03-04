@@ -22,8 +22,7 @@ En lugar de asumir, creemos que es mejor explicitar qué se espera del ambiente 
 
 * Favorece que más personas sepan que son bienvenidas
 * Evita ambigüedades
-* Construye un clima de confianza, donde si alguien quiere reportar un incidente, sabrá que no empezaremos por cuestionarle (victim
-  blaming).
+* Construye un clima de confianza, donde si alguien quiere reportar un incidente, sabrá que no empezaremos por cuestionarle (*victim blaming*).
 
 ## Alcance
 
