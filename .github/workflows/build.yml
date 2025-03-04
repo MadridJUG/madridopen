@@ -1,0 +1,29 @@
+name: Build site
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Lume Build
+      uses: lumeland/build/gh-pages@main
+
+    - name: Deploy to Server
+      uses: easingthemes/ssh-deploy@main
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SERVER_KEY }}
+        SOURCE: "_site/"
+        REMOTE_HOST: jmad.madridjug.es
+        REMOTE_USER: ${{ secrets.SERVER_USER }}
+        TARGET: ${{ secrets.SERVER_PATH }}
+        EXCLUDE: "/dist/, /node_modules/"
