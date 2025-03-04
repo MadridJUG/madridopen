@@ -12,10 +12,14 @@ menu:
     url: '#contact'
     highlight: false
 blocks:
-  - type: hero
-    title: <br/>
-    intro: '## JMad OpenSpace'
-    text: "### 30 Aniversario de Java\r\n\r\n![JMad logo](/files/logos/JMad.png)\r\n\r\nEn conmemoriación del 30 aniversario de Java, MadridJUG lo celebrará con su comunidad organizando un Open Space donde compartir las experiencias trabajando sobre la JVM\r\n\r\n![29 Aniversario](/files/Java29.jpg)"
+  - type: imagetext
+    theme: is-secondary width-box box-fill
+    src: /files/logos/JMad.png
+    text: "# JMad OpenSpace\r\n\r\nEn conmemoración del 30 aniversario de Java, MadridJUG quiere rendir homenaje a este lenguaje icónico organizando un evento especial para su comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y participativo que permitirá a los asistentes compartir sus experiencias, debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos los avances más recientes en el mundo del desarrollo en Java."
+  - type: imagetext
+    theme: is-primary width-full box-fill
+    src: /files/grupo-29-aniversario.jpg
+    text: "Este encuentro será una oportunidad única para que desarrolladores de todos los niveles intercambien conocimientos, planteen preguntas y reflexionen sobre el impacto que ha tenido Java a lo largo de estas tres décadas. Desde sus inicios hasta su evolución actual con nuevas versiones y mejoras en rendimiento, el evento servirá como punto de encuentro para entusiastas, profesionales y expertos que deseen profundizar en los desafíos y oportunidades que ofrece la plataforma.\r\n\r\nMadridJUG invita a toda la comunidad a sumarse a esta celebración, en la que podrán no solo aprender y compartir, sino también fortalecer la red de contactos con otros apasionados por Java y su ecosistema. ¡No te lo pierdas!"
   - type: multitrack-calendar
     title: Agenda
     id: calendar
@@ -25,10 +29,8 @@ blocks:
         tracks:
           - title: Area James Gosling
             id: Track1
-          - title: Area Oak Project
-            id: Track2
           - title: Area Duke
-            id: Track3
+            id: Track2
         events:
           - time: '9:00'
             title: Recepción y registro
@@ -51,72 +53,48 @@ blocks:
             title: Sesión 2
             track: Track2
             speakers: []
-          - time: '11:00'
+          - time: '12:00'
             title: Sesión 3
-            track: Track3
+            track: Track1
             speakers: []
           - time: '12:00'
             title: Sesión 4
-            track: Track1
+            track: Track2
             speakers: []
-          - time: '12:00'
+          - time: '13:00'
             title: Sesión 5
-            track: Track2
-            speakers: []
-          - time: '12:00'
-            title: Sesión 6
-            track: Track3
-            speakers: []
-          - time: '13:00'
-            title: Sesión 7
             track: Track1
             speakers: []
           - time: '13:00'
-            title: Sesión 8
+            title: Sesión 6
             track: Track2
-            speakers: []
-          - time: '13:00'
-            title: Sesión 9
-            track: Track3
             speakers: []
           - time: '14:00'
             title: Comida y networking
             speakers: []
           - time: '15:30'
+            title: Sesión 7
+            track: Track1
+            speakers: []
+          - time: '15:30'
+            title: Sesión 8
+            track: Track2
+            speakers: []
+          - time: '16:30'
+            title: Sesión 9
+            track: Track1
+            speakers: []
+          - time: '16:30'
             title: Sesión 10
-            track: Track1
+            track: Track2
             speakers: []
-          - time: '15:30'
+          - time: '17:30'
             title: Sesión 11
-            track: Track2
+            track: Track1
             speakers: []
-          - time: '15:30'
+          - time: '17:30'
             title: Sesión 12
-            track: Track3
-            speakers: []
-          - time: '16:30'
-            title: Sesión 13
-            track: Track1
-            speakers: []
-          - time: '16:30'
-            title: Sesión 14
             track: Track2
-            speakers: []
-          - time: '16:30'
-            title: Sesión 15
-            track: Track3
-            speakers: []
-          - time: '17:30'
-            title: Sesión 16
-            track: Track1
-            speakers: []
-          - time: '17:30'
-            title: Sesión 17
-            track: Track2
-            speakers: []
-          - time: '17:30'
-            title: Sesión 18
-            track: Track3
             speakers: []
           - time: '18:30'
             title: Cierre y retrospectiva
