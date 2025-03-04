@@ -12,9 +12,13 @@
 }
 
 .ly-blocks {
-  margin-top: 0;
+  margin-top: 40px;
 }
 
 .navbar-menu a.is-highlight::after {
   background-color: var(--color-alternative);
+}
+
+.block-people-list a:hover img {
+  filter: none
 }
