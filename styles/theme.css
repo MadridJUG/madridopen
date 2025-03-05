@@ -22,3 +22,19 @@
 .block-people-list a:hover img {
   filter: none
 }
+
+.block-imagetext:first-child {
+  figure {
+    margin-top: 90px;
+    align-self: center;
+    justify-self: center;
+  }
+  img {
+    max-width: 300px;
+    height: auto;
+  }
+  h1 {
+    font-size: var(--font-7-size);
+    margin-bottom: 0
+  }
+}
