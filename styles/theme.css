@@ -12,7 +12,7 @@
 }
 
 .ly-blocks {
-  margin-top: 40px;
+  margin-top: 85px;
 }
 
 .navbar-menu a.is-highlight::after {
@@ -37,4 +37,8 @@
     font-size: var(--font-7-size);
     margin-bottom: 0
   }
+}
+
+#tickets {
+  margin-top: -100px;
 }

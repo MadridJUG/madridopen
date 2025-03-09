@@ -8,44 +8,36 @@ blocks:
     title: Entradas
     description: >-
       El importe de las entradas va íntegramente a cubrir los costes del evento:
-      ticketing, espacio y comida.
+      ticketing y comida.
   - type: tickets
     id: tickets
     features:
-      - id: welcome_pack
-        text: Welcome Pack
-      - id: tshirt
-        text: Camiseta
+      - id: entrada
+        text: Entrada al evento y comida.
+      - id: sponsor
+        text: >-
+          Sponsor: Incluye tres entradas al evento, logo en la web, anuncios y agradecimientos
+          en redes sociales, mención en apertura y cierre.
     tickets:
-      - name: Entrada simple
-        pricing: 20€ + IVA
+      - name: Entrada general
+        pricing: 30€ (IVA incluido)
         img: /files/tickets/ticket.png
         buy:
-          text: Buy now
-          url: '#'
+          text: Comprar
+          url: 'https://my.weezevent.com/jmad-openspace-2025'
           disabled: false
         features:
-          - welcome_pack
-      - name: Entrada + Camiseta conmemorativa
-        pricing: 40€ + IVA
+          - entrada
+      - name: Sponsor
+        pricing: 500€ (IVA incluido)
         img: /files/tickets/ticket.png
         buy:
-          text: Buy now
-          url: '#'
+          text: Comprar
+          url: 'https://my.weezevent.com/jmad-openspace-2025'
           disabled: false
         features:
-          - welcome_pack
-          - tshirt
-      - name: Patreon
-        pricing: 100 + IVA
-        img: /files/tickets/ticket.png
-        buy:
-          text: Buy now
-          url: '#'
-          disabled: false
-        features:
-          - welcome_pack
-          - tshirt
+          - entrada
+          - sponsor
 title: Tickets
 metas:
   image: ''

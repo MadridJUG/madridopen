@@ -9,8 +9,8 @@ metas:
   image: /files/Java29.png
 state: pre-event
 cta:
-  text: Tickets próximamente
-  url: "#"
+  text: ¡Consigue tu entrada!
+  url: /tickets
 footer:
   logo: /files/logos/JMad.png
   copyright: "© 2025<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n"
