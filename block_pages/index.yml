@@ -13,10 +13,12 @@ menu:
     highlight: false
 blocks:
   - type: imagetext
+    id: intro
     theme: is-secondary width-box box-fill
     src: /files/logos/JMad.png
     text: "# JMad OpenSpace\r\n\r\nEn conmemoración del 30 aniversario de Java, MadridJUG quiere rendir homenaje a este lenguaje icónico organizando un evento especial para su comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y participativo que permitirá a los asistentes compartir sus experiencias, debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos los avances más recientes en el mundo del desarrollo en Java."
   - type: imagetext
+    id: aniversary29
     theme: is-primary width-full box-fill
     src: /files/grupo-29-aniversario.jpg
     text: "Este encuentro será una oportunidad única para que desarrolladores de todos los niveles intercambien conocimientos, planteen preguntas y reflexionen sobre el impacto que ha tenido Java a lo largo de estas tres décadas. Desde sus inicios hasta su evolución actual con nuevas versiones y mejoras en rendimiento, el evento servirá como punto de encuentro para entusiastas, profesionales y expertos que deseen profundizar en los desafíos y oportunidades que ofrece la plataforma.\r\n\r\nMadridJUG invita a toda la comunidad a sumarse a esta celebración, en la que podrán no solo aprender y compartir, sino también fortalecer la red de contactos con otros apasionados por Java y su ecosistema. ¡No te lo pierdas!"
@@ -104,6 +106,7 @@ blocks:
             speakers: []
   - type: text
     title: ¿Qué es un Open Space?
+    id: openspace
     theme: is-light width-box box-border
     columns: false
     text: "Un Open Space o \"desconferencia\" es una forma de organizar reuniones y conferencias que se basa en la autoorganización y la participación activa de todos los asistentes. A diferencia de las conferencias tradicionales, donde se sigue una agenda predefinida, en un Open Space los participantes proponen los temas que les interesan y crean su propia agenda. Esto fomenta la libertad de discusión y permite que surjan ideas innovadoras y soluciones creativas.\r\n\r\nEn un Open Space, todos los participantes son responsables de su propio aprendizaje y de contribuir al aprendizaje de los demás. Se fomenta la colaboración y el intercambio de conocimientos, y se anima a los participantes a moverse libremente entre las diferentes sesiones y a participar en aquellas que les resulten más interesantes. El resultado es un evento dinámico y participativo, donde se generan conversaciones significativas y se construyen redes de colaboración."
@@ -149,6 +152,7 @@ blocks:
     width: is-default
   - type: people
     title: El equipo de MadridJUG
+    id: team
     description: >-
       Ésto no sería posible sin la participación de nuestro equipo de
       coordinadores de MadridJUG.
@@ -169,6 +173,7 @@ blocks:
     width: is-full
   - type: faq
     title: FAQ
+    id: faq
     theme: is-light width-box box-fill
     questions:
       - question: ¿Quién organiza el evento?
