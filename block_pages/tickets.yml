@@ -16,8 +16,8 @@ blocks:
         text: Entrada al evento y comida.
       - id: sponsor
         text: >-
-          Sponsor: Logo en la web, anuncios y agradecimientos en redes
-          sociales, mención en apertura y cierre.
+          Sponsor: Incluye tres entradas al evento, logo en la web, anuncios y agradecimientos
+          en redes sociales, mención en apertura y cierre.
     tickets:
       - name: Entrada general
         pricing: 30€ (IVA incluido)
