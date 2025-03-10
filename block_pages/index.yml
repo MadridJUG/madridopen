@@ -139,9 +139,6 @@ blocks:
       - alt: Sirviendo Código
         img: /files/logos/SirviengoCodigo.png
         url: 'https://sirviendocodigo.com/'
-      - alt: DevBcn
-        img: /files/logos/DevBcn.png
-        url: 'https://www.devbcn.com/'
       - alt: NextDigital
         img: /files/logos/NextDigital.png
         url: 'https://www.nextdigital.es/'
