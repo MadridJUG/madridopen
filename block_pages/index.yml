@@ -111,20 +111,20 @@ blocks:
     columns: false
     text: "Un Open Space o \"desconferencia\" es una forma de organizar reuniones y conferencias que se basa en la autoorganización y la participación activa de todos los asistentes. A diferencia de las conferencias tradicionales, donde se sigue una agenda predefinida, en un Open Space los participantes proponen los temas que les interesan y crean su propia agenda. Esto fomenta la libertad de discusión y permite que surjan ideas innovadoras y soluciones creativas.\r\n\r\nEn un Open Space, todos los participantes son responsables de su propio aprendizaje y de contribuir al aprendizaje de los demás. Se fomenta la colaboración y el intercambio de conocimientos, y se anima a los participantes a moverse libremente entre las diferentes sesiones y a participar en aquellas que les resulten más interesantes. El resultado es un evento dinámico y participativo, donde se generan conversaciones significativas y se construyen redes de colaboración."
   - type: location
-    title: Paseo de la Habana 3
+    title: Paseo de la Habana 9-11
     id: location
     theme: is-light width-box box-fill
     embed: >-
       <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.210445183655!2d-3.6925918244706266!3d40.448478953707095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e47c635d69%3A0x9d584f989c448530!2sP.%C2%BA%20de%20La%20Habana%2C%203%2C%20Chamart%C3%ADn%2C%2028036%20Madrid!5e0!3m2!1ses!2ses!4v1741027730101!5m2!1ses!2ses"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.1583238838393!2d-3.691939422731816!3d40.44963265363413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4225e81882ffd1%3A0x9bb12c6aa2e8c3df!2sNEXT%20DIGITAL!5e0!3m2!1ses!2ses!4v1743411215495!5m2!1ses!2ses"
       width="600" height="450" style="border:0;" allowfullscreen=""
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     directions:
       - title: Oficinas Next Digital (Spaces)
-        description: 'C/Paseo de la Habana 3, Madrid'
+        description: 'C/Paseo de la Habana 9-11, Madrid'
         icon: map-pin
       - title: Metro
-        description: Nuevos ministerios o Santiago Bernabeu
+        description: Nuevos Ministerios o Santiago Bernabéu
         icon: train-simple
   - type: separator
     width: is-default
