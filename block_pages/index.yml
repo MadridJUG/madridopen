@@ -145,6 +145,9 @@ blocks:
       - alt: MadridGUG
         img: /files/logos/MadridGUG.png
         url: 'https://www.madridgug.com/'
+      - alt: Incremental Steps
+        img: /files/logos/IncrementalSteps.png
+        url: 'https://incsteps.com/'
   - type: separator
     width: is-default
   - type: people
