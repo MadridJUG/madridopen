@@ -14,6 +14,11 @@ blocks:
     features:
       - id: entrada
         text: Entrada al evento y comida.
+      - id: diversity
+        text: >-
+          Entrada al evento y comida.
+          Los tickets de diversity son para quien sienta que pertenece a algún colectivo infra-representado.
+          No hay ninguna restricción y puedes comprar este ticket si crees que te ayuda a participar en el evento.
       - id: sponsor
         text: >-
           Sponsor: Incluye tres entradas al evento, logo en la web, anuncios y agradecimientos
@@ -28,6 +33,15 @@ blocks:
           disabled: false
         features:
           - entrada
+      - name: Entrada Diversity
+        pricing: 15€ (IVA incluido)
+        img: /files/tickets/ticket.png
+        buy:
+          text: Comprar
+          url: 'https://my.weezevent.com/jmad-openspace-2025'
+          disabled: false
+        features:
+          - diversity
       - name: Sponsor
         pricing: 500€ (IVA incluido)
         img: /files/tickets/ticket.png
