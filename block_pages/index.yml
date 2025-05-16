@@ -74,34 +74,26 @@ blocks:
           - time: '14:00'
             title: Comida y networking
             speakers: []
-          - time: '15:30'
+          - time: '15:25'
             title: Sesión 7
             track: Track1
             speakers: []
-          - time: '15:30'
+          - time: '15:25'
             title: Sesión 8
             track: Track2
             speakers: []
-          - time: '16:30'
+          - time: '16:20'
             title: Sesión 9
             track: Track1
             speakers: []
-          - time: '16:30'
+          - time: '16:20'
             title: Sesión 10
             track: Track2
             speakers: []
-          - time: '17:30'
-            title: Sesión 11
-            track: Track1
-            speakers: []
-          - time: '17:30'
-            title: Sesión 12
-            track: Track2
-            speakers: []
-          - time: '18:30'
+          - time: '17:10'
             title: Cierre y retrospectiva
             speakers: []
-          - time: '19:00'
+          - time: '17:30'
             title: Networking
             speakers: []
   - type: text
@@ -181,7 +173,8 @@ blocks:
           El evento lo montamos un grupo de voluntarios que nos reunimos
           alrededor de MadridJUG, junto con la ayuda de [Next
           Digital](https://www.nextdigital.es/), [Siviendo
-          Código](https://sirviendocodigo.com/) e [Incremental Steps](https://incsteps.com/).
+          Código](https://sirviendocodigo.com/) e [Incremental
+          Steps](https://incsteps.com/).
       - question: ¿Debo llevar una charla preparada?
         answer: >-
           Puedes preparar una charla y proponerla. Pero deberá salir votada por
