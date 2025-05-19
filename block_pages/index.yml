@@ -39,7 +39,7 @@ blocks:
             id: Recepción y registro
             speakers: []
           - time: '9:30'
-            title: ' Keynote: 30 años de Java'
+            title: 'Keynote: 30 años de Java'
             speakers: []
           - time: '10:00'
             title: ¿Qué es un OpenSpace?
@@ -48,46 +48,46 @@ blocks:
             title: Mercadillo de ideas
             speakers: []
           - time: '11:00'
-            title: Sesión 1
+            title: 'Técnicas de optimización de memoria'
             track: Track1
             speakers: []
           - time: '11:00'
-            title: Sesión 2
+            title: 'Técnicas para manter equipos full remote cohesionados y felices'
             track: Track2
             speakers: []
           - time: '12:00'
-            title: Sesión 3
+            title: 'Tutorizando juniors: experiencia y consejos'
             track: Track1
             speakers: []
           - time: '12:00'
-            title: Sesión 4
+            title: 'Observabilidad'
             track: Track2
             speakers: []
           - time: '13:00'
-            title: Sesión 5
+            title: 'Experiencia con asistentes AI'
             track: Track1
             speakers: []
           - time: '13:00'
-            title: Sesión 6
+            title: 'Novedades Java 25: Mejoras y cambios en estos 30 años'
             track: Track2
             speakers: []
           - time: '14:00'
             title: Comida y networking
             speakers: []
           - time: '15:25'
-            title: Sesión 7
+            title: 'JSpecify y nullability'
             track: Track1
             speakers: []
           - time: '15:25'
-            title: Sesión 8
+            title: 'Fun short Java Quiz'
             track: Track2
             speakers: []
           - time: '16:20'
-            title: Sesión 9
+            title: 'Virtual Threads'
             track: Track1
             speakers: []
           - time: '16:20'
-            title: Sesión 10
+            title: 'Buenas prácticas: Código seguro'
             track: Track2
             speakers: []
           - time: '17:10'
