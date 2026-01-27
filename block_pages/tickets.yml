@@ -11,6 +11,7 @@ blocks:
       ticketing y comida.
   - type: tickets
     id: tickets
+    theme: is-light width-box box-fill
     features:
       - id: entrada
         text: Entrada al evento y comida.
@@ -25,20 +26,20 @@ blocks:
           en redes sociales, mención en apertura y cierre.
     tickets:
       - name: Entrada general
-        pricing: 30€ (IVA incluido)
+        pricing: 35€ (IVA incluido)
         img: /files/tickets/ticket.png
         buy:
           text: Comprar
-          url: 'https://my.weezevent.com/jmad-openspace-2025'
+          url: 'https://my.weezevent.com/jmad-openspace-2026'
           disabled: false
         features:
           - entrada
       - name: Entrada Diversity
-        pricing: 15€ (IVA incluido)
+        pricing: 17€ (IVA incluido)
         img: /files/tickets/ticket.png
         buy:
           text: Comprar
-          url: 'https://my.weezevent.com/jmad-openspace-2025'
+          url: 'https://my.weezevent.com/jmad-openspace-2026'
           disabled: false
         features:
           - diversity
@@ -47,7 +48,7 @@ blocks:
         img: /files/tickets/ticket.png
         buy:
           text: Comprar
-          url: 'https://my.weezevent.com/jmad-openspace-2025'
+          url: 'https://my.weezevent.com/jmad-openspace-2026'
           disabled: false
         features:
           - entrada

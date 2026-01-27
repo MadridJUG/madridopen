@@ -6,18 +6,16 @@ metas:
   twitter: MadridJUG
   color: '#d4617c'
   generator: true
-  image: /files/Java29.png
+  image: logos/JMad.png
 state: pre-event
 cta:
   text: ¡Consigue tu entrada!
   url: /tickets
 footer:
   logo: /files/logos/JMad.png
-  copyright: "© 2025<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n"
+  copyright: |
+    © 2026<br>
+    Created with [Lume](https://lume.land) & TOP Theme<br>
   menu:
-#    - text: Legal terms
-#      href: /legal-terms/
-#    - text: Privacy
-#      href: /privacy/
     - text: Código de conducta
       href: /codigo-de-conducta/
