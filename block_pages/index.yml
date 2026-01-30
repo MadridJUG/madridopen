@@ -236,6 +236,13 @@ blocks:
           No, debido a la dinámica de las interacciones, donde muchas personas
           pueden hablar a lo largo de las sesiones, no es posible grabar bien a
           todo el mundo.
+      - question: I speak English, can I still participate?
+        answer: >-
+          Yes, you're welcome to attend, and we'll do our best to help you take part.
+          However, we'd like to keep the event primarily in Spanish, as it's aimed at
+          our local community and most people will feel more comfortable speaking Spanish.
+          That said, last year a few attendees had only basic Spanish, and we were happy
+          to speak with them in English.
   - type: contact
     title: Contacto
     id: contact
