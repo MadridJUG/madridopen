@@ -1,0 +1,17 @@
+{{- set videoId = block.youtube -}}
+{{- set coverUrl = block.cover || `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` -}}
+{{- set videoMode = block.mode || "default" -}}
+<figure
+  id="{{ block.id }}"
+  class="block-youtube theme is-light box-fill no-padding width-full"
+>
+  <top-youtube id="youtube_{{ videoId }}" data-id="{{ videoId }}" data-mode="{{ videoMode }}">
+    <img src="{{ coverUrl }}" alt="{{ block.alt }}">
+  </top-youtube>
+
+  {{ if block.caption }}
+    <figcaption>
+      {{ block.caption |> md }}
+    </figcaption>
+  {{ /if }}
+</figure>

@@ -6,6 +6,98 @@
   --color-light: Linen;
 }
 
+/* YouTube block styles */
+.block-youtube {
+  display: grid;
+  grid-template-columns: subgrid;
+  margin: 0;
+  padding: 0;
+  /* Add spacing after the YouTube video */
+  /*margin-bottom: clamp(2rem, 5vw, 4rem);*/
+
+  figcaption {
+    grid-row: 2;
+    grid-column: start / end;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/* Fix imagetext order after YouTube block - flip the photo-aniversary block */
+#photo-aniversary {
+  @media (width > 800px) {
+    grid-template-areas: ". text image image";
+
+    &.width-box {
+      grid-template-areas: "text image";
+    }
+
+    > div {
+      padding: 2rem 2rem 2rem 0;
+    }
+  }
+}
+
+top-youtube {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  aspect-ratio: var(--ratio, 16/9);
+
+  &.is-loaded {
+    background: var(--color-dark);
+
+    &:after,
+    & img {
+      display: none;
+    }
+  }
+
+  & img {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+
+  & iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  & a {
+    position: absolute;
+    opacity: 0;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    width: min(80px, 10vw) !important;
+    height: min(80px, 10vw) !important;
+    top: auto !important;
+    left: auto !important;
+    bottom: auto !important;
+    right: auto !important;
+    background-color: var(--color-button-bg);
+  }
+
+  &:hover::after {
+    opacity: 0.5;
+  }
+}
+
 .navbar-cta {
   background-color: var(--color-alternative);
   color: var(--color-dark);
@@ -41,4 +133,66 @@
 
 #tickets {
   margin-top: -100px;
+}
+
+/* Calendar block - apply is-light box-fill theme via CSS since TOP v0.4.1 
+   multitrack-calendar template doesn't support the theme property */
+#calendar {
+  --color-bg: var(--color-light);
+  --color-fg: var(--color-dark);
+  --color-bg-hover: color-mix(in srgb, var(--color-bg), var(--color-fg) 5%);
+  --color-shadow: white;
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+/* Calendar title in primary color */
+#calendar .block-calendar-header h2 {
+  color: var(--color-primary);
+}
+
+/* Track headers with primary background */
+#calendar .event-track-title {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* Event cards with white background */
+#calendar .event {
+  background: white;
+  border-radius: 0.5rem;
+}
+
+/* Fix tickets table styling to match v0.2.1 */
+.tickets-table .ticket-feature > * {
+  border-bottom: solid 1px color-mix(in srgb, var(--color-light), black 10%);
+}
+
+.tickets-table .ticket-feature-title {
+  background: white;
+}
+
+/* Make COMPRAR buttons more visible */
+.block-tickets .button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.75em 1.5em;
+  font-size: var(--font-2-size);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.block-tickets .button:hover {
+  background-color: var(--color-alternative);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.block-tickets .button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

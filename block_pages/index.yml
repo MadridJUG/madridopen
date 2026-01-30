@@ -16,18 +16,45 @@ blocks:
     id: intro
     theme: is-secondary width-box box-fill
     src: /files/logos/JMad.png
-    text: "# JMad OpenSpace\r\n\r\nEn conmemoración del 30 aniversario de Java, MadridJUG quiere rendir homenaje a este lenguaje icónico organizando un evento especial para su comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y participativo que permitirá a los asistentes compartir sus experiencias, debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos los avances más recientes en el mundo del desarrollo en Java."
+    text: >-
+      # JMad OpenSpace
+
+
+      En conmemoración del 31 aniversario de Java, MadridJUG quiere rendir
+      homenaje a este lenguaje icónico organizando un evento especial para su
+      comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y
+      participativo que permitirá a los asistentes compartir sus experiencias,
+      debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos
+      los avances más recientes en el mundo del desarrollo en Java.
+  - type: youtube
+    youtube: Fxy6GzhHZaE
+    cover: ''
+    id: video
+    mode: default
   - type: imagetext
-    id: aniversary29
+    id: photo-aniversary
     theme: is-primary width-full box-fill
-    src: /files/grupo-29-aniversario.jpg
-    text: "Este encuentro será una oportunidad única para que desarrolladores de todos los niveles intercambien conocimientos, planteen preguntas y reflexionen sobre el impacto que ha tenido Java a lo largo de estas tres décadas. Desde sus inicios hasta su evolución actual con nuevas versiones y mejoras en rendimiento, el evento servirá como punto de encuentro para entusiastas, profesionales y expertos que deseen profundizar en los desafíos y oportunidades que ofrece la plataforma.\r\n\r\nMadridJUG invita a toda la comunidad a sumarse a esta celebración, en la que podrán no solo aprender y compartir, sino también fortalecer la red de contactos con otros apasionados por Java y su ecosistema. ¡No te lo pierdas!"
+    src: /files/grupo-30-aniversario.jpg
+    text: >-
+      Este encuentro será una oportunidad única para que desarrolladores de
+      todos los niveles intercambien conocimientos, planteen preguntas y
+      reflexionen sobre el impacto que ha tenido Java a lo largo de estas tres
+      décadas. Desde sus inicios hasta su evolución actual con nuevas versiones
+      y mejoras en rendimiento, el evento servirá como punto de encuentro para
+      entusiastas, profesionales y expertos que deseen profundizar en los
+      desafíos y oportunidades que ofrece la plataforma.
+
+
+      MadridJUG invita a toda la comunidad a sumarse a esta celebración, en la
+      que podrán no solo aprender y compartir, sino también fortalecer la red de
+      contactos con otros apasionados por Java y su ecosistema. ¡No te lo
+      pierdas!
   - type: multitrack-calendar
     title: Agenda
     id: calendar
     fullwidth: false
     days:
-      - title: 17 de Mayo
+      - title: 23 de Mayo 2026
         tracks:
           - title: Area James Gosling
             id: Track1
@@ -39,7 +66,7 @@ blocks:
             id: Recepción y registro
             speakers: []
           - time: '9:30'
-            title: 'Keynote: 30 años de Java'
+            title: 'Keynote'
             speakers: []
           - time: '10:00'
             title: ¿Qué es un OpenSpace?
@@ -48,46 +75,46 @@ blocks:
             title: Mercadillo de ideas
             speakers: []
           - time: '11:00'
-            title: 'Técnicas de optimización de memoria'
+            title: Sesión 1
             track: Track1
             speakers: []
           - time: '11:00'
-            title: 'Técnicas para manter equipos full remote cohesionados y felices'
+            title: Sesión 2
             track: Track2
             speakers: []
           - time: '12:00'
-            title: 'Tutorizando juniors: experiencia y consejos'
+            title: Sesión 3
             track: Track1
             speakers: []
           - time: '12:00'
-            title: 'Observabilidad'
+            title: Sesión 4
             track: Track2
             speakers: []
           - time: '13:00'
-            title: 'Experiencia con asistentes AI'
+            title: Sesión 5
             track: Track1
             speakers: []
           - time: '13:00'
-            title: 'Novedades Java 25: Mejoras y cambios en estos 30 años'
+            title: Sesión 6
             track: Track2
             speakers: []
           - time: '14:00'
             title: Comida y networking
             speakers: []
           - time: '15:25'
-            title: 'JSpecify y nullability'
+            title: Sesión 7
             track: Track1
             speakers: []
           - time: '15:25'
-            title: 'Fun short Java Quiz'
+            title: Sesión 8
             track: Track2
             speakers: []
           - time: '16:20'
-            title: 'Virtual Threads'
+            title: Sesión 9
             track: Track1
             speakers: []
           - time: '16:20'
-            title: 'Buenas prácticas: Código seguro'
+            title: Sesión 10
             track: Track2
             speakers: []
           - time: '17:10'
@@ -101,7 +128,23 @@ blocks:
     id: openspace
     theme: is-light width-box box-border
     columns: false
-    text: "Un Open Space o \"desconferencia\" es una forma de organizar reuniones y conferencias que se basa en la autoorganización y la participación activa de todos los asistentes. A diferencia de las conferencias tradicionales, donde se sigue una agenda predefinida, en un Open Space los participantes proponen los temas que les interesan y crean su propia agenda. Esto fomenta la libertad de discusión y permite que surjan ideas innovadoras y soluciones creativas.\r\n\r\nEn un Open Space, todos los participantes son responsables de su propio aprendizaje y de contribuir al aprendizaje de los demás. Se fomenta la colaboración y el intercambio de conocimientos, y se anima a los participantes a moverse libremente entre las diferentes sesiones y a participar en aquellas que les resulten más interesantes. El resultado es un evento dinámico y participativo, donde se generan conversaciones significativas y se construyen redes de colaboración."
+    text: >-
+      Un Open Space o "desconferencia" es una forma de organizar reuniones y
+      conferencias que se basa en la autoorganización y la participación activa
+      de todos los asistentes. A diferencia de las conferencias tradicionales,
+      donde se sigue una agenda predefinida, en un Open Space los participantes
+      proponen los temas que les interesan y crean su propia agenda. Esto
+      fomenta la libertad de discusión y permite que surjan ideas innovadoras y
+      soluciones creativas.
+
+
+      En un Open Space, todos los participantes son responsables de su propio
+      aprendizaje y de contribuir al aprendizaje de los demás. Se fomenta la
+      colaboración y el intercambio de conocimientos, y se anima a los
+      participantes a moverse libremente entre las diferentes sesiones y a
+      participar en aquellas que les resulten más interesantes. El resultado es
+      un evento dinámico y participativo, donde se generan conversaciones
+      significativas y se construyen redes de colaboración.
   - type: location
     title: Paseo de la Habana 9-11
     id: location
@@ -134,12 +177,12 @@ blocks:
       - alt: NextDigital
         img: /files/logos/NextDigital.png
         url: 'https://www.nextdigital.es/'
-      - alt: MadridGUG
-        img: /files/logos/MadridGUG.png
-        url: 'https://www.madridgug.com/'
       - alt: Incremental Steps
         img: /files/logos/IncrementalSteps.png
         url: 'https://incsteps.com/'
+      - alt: MadridGUG
+        img: /files/logos/MadridGUG.png
+        url: 'https://www.madridgug.com/'
   - type: separator
     width: is-default
   - type: people
@@ -181,7 +224,13 @@ blocks:
           los asistentes y la sala que esté disponible disponga de
           proyector/pantalla.
       - question: 'Creo que tengo poco que aportar, ¿debería ir?'
-        answer: "Por supuesto!! Seguro que sabes muchas cosas que podrás compartir con otros asistentes. \r\n\r\nAdemás, recuerda: la única pregunta estúpida es aquella que se queda sin preguntar."
+        answer: >-
+          Por supuesto!! Seguro que sabes muchas cosas que podrás compartir con
+          otros asistentes. 
+
+
+          Además, recuerda: la única pregunta estúpida es aquella que se queda
+          sin preguntar.
       - question: ¿Se van a grabar las sesiones?
         answer: >-
           No, debido a la dinámica de las interacciones, donde muchas personas
@@ -196,7 +245,10 @@ blocks:
         info: madridjug-coordinators@googlegroups.com
         links: []
       - title: Redes Sociales
-        info: "Twitter: [MadridJUG](https://x.com/MadridJUG)\r\n<br/>\r\nBlueSky: [@madridjug.es](https://bsky.app/profile/madridjug.es)"
+        info: |-
+          Twitter: [MadridJUG](https://x.com/MadridJUG)
+          <br/>
+          BlueSky: [@madridjug.es](https://bsky.app/profile/madridjug.es)
         links: []
 metas:
   image: ''
