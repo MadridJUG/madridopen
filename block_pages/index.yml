@@ -28,7 +28,7 @@ blocks:
       los avances más recientes en el mundo del desarrollo en Java.
   - type: youtube
     youtube: Fxy6GzhHZaE
-    cover: ''
+    cover: /files/cover.jpg
     id: video
     mode: default
   - type: imagetext
