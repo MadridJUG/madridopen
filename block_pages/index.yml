@@ -20,12 +20,13 @@ blocks:
       # JMad OpenSpace
 
 
-      En conmemoración del 31 aniversario de Java, MadridJUG quiere rendir
-      homenaje a este lenguaje icónico organizando un evento especial para su
-      comunidad. Para ello, llevará a cabo un Open Space, un formato dinámico y
-      participativo que permitirá a los asistentes compartir sus experiencias,
-      debatir sobre las tecnologías del ecosistema de la JVM y explorar juntos
-      los avances más recientes en el mundo del desarrollo en Java.
+      En conmemoración del 31 aniversario de Java, el próximo **23 de Mayo de
+      2026**, MadridJUG quiere rendir homenaje a este lenguaje icónico
+      organizando un evento especial para su comunidad. Para ello, llevará a
+      cabo un Open Space, un formato dinámico y participativo que permitirá a
+      los asistentes compartir sus experiencias, debatir sobre las tecnologías
+      del ecosistema de la JVM y explorar juntos los avances más recientes en el
+      mundo del desarrollo en Java.
   - type: youtube
     youtube: Fxy6GzhHZaE
     cover: /files/cover.jpg
@@ -226,7 +227,7 @@ blocks:
       - question: 'Creo que tengo poco que aportar, ¿debería ir?'
         answer: >-
           Por supuesto!! Seguro que sabes muchas cosas que podrás compartir con
-          otros asistentes. 
+          otros asistentes.
 
 
           Además, recuerda: la única pregunta estúpida es aquella que se queda
@@ -261,4 +262,4 @@ metas:
   image: ''
 url: /
 only_state: pre-event
-title: JMad OpenSpace
+title: 'JMad OpenSpace, 23 de Mayo de 2026'
