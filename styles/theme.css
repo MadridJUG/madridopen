@@ -151,6 +151,57 @@ top-youtube {
   color: var(--color-primary);
 }
 
+/* Speakers title in primary color */
+#quien-viene .block-speakers-header h2 {
+  color: var(--color-primary);
+}
+
+#quien-viene .block-speakers-header {
+  max-width: 70ch;
+}
+
+#quien-viene .block-speakers-header .type-txt {
+  max-width: 70ch;
+}
+
+#quien-viene .block-speakers-list {
+  --width: 180px;
+}
+
+#quien-viene .speaker-image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-inline: auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+#quien-viene .speaker {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#quien-viene .speaker:hover,
+#quien-viene .speaker:focus-visible {
+  background-color: color-mix(in srgb, var(--color-primary), white 50%);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+#quien-viene .speaker:hover .speaker-image,
+#quien-viene .speaker:focus-visible .speaker-image {
+  transform: scale(1.10);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-primary), white 50%);
+  filter: saturate(1.1);
+}
+
+#quien-viene .block-speakers-list .speaker {
+  min-height: 260px;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+
 /* Track headers with primary background */
 #calendar .event-track-title {
   background: var(--color-primary);
