@@ -168,8 +168,8 @@ blocks:
     width: is-default
   - type: speakers
     title: ¿Quién viene?
-    description: >-
-      JMad es sobre todo una excusa para juntarnos y conocernos. Aquí puedes ver
+    description: |-
+      **JMad** es sobre todo una excusa para juntarnos y conocernos. Aquí puedes ver
       a algunas de las personas que asistirán al evento y que han querido
       compartir una pequeña presentación. Así podemos poner cara a la comunidad
       antes de vernos en persona. Si vienes y te apetece aparecer aquí,
@@ -218,6 +218,20 @@ blocks:
             url: 'https://www.linkedin.com/in/dgomezg/'
           - icon: x-logo
             url: 'https://x.com/dgomezg'
+      - name: Gonzalo Ortiz
+        id: gonzalo-ortiz
+        company: StarTree
+        bio: |-
+          **Apache Pinot Committer**
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          tempor aliquam tellus
+        image: /files/people/GonzaloOrtiz.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/gortizja/'
+          - icon: x-logo
+            url: 'https://x.com/gortizja'
       - name: Iván López
         id: ivan-lopez
         bio: |-
@@ -247,6 +261,32 @@ blocks:
             url: 'https://www.linkedin.com/in/jerolba/'
           - icon: x-logo
             url: 'https://x.com/jerolba'
+      - name: JMiguel Rodríguez
+        id: jmigue-rodriguez
+        company: Clarity AI
+        bio: |-
+          **Aenean a lacinia magna**
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          tempor aliquam tellus
+        image: /files/people/JMiguelRodriguez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/jmiguelrodriguez/'
+          - icon: x-logo
+            url: 'https://x.com/jmiguel'
+      - name: Jose Ignacio Domínguez
+        id: joseignacio-dominguez
+        company: Clarity AI
+        bio: |-
+          **Aenean a lacinia magna**
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          tempor aliquam tellus
+        image: /files/people/avatar.webp
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/joseignaciodominguez/'
   - type: separator
     width: is-default
   - type: logos
