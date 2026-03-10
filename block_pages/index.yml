@@ -177,10 +177,24 @@ blocks:
     id: quien-viene
     theme: width-full
     speakers:
+      - name: Antón Rodríguez
+        id: anton-rodriguez
+        company: Phoebe AI
+        bio: |-
+          **Software Engineer y PhD student en Data & Agentic engineering.**
+
+          Busco compartir experiencias, aprender de la fantástica comunidad
+          javera local y nacional...  Y una cerveza 0.0 con viejos amigos.
+        image: /files/people/AntonRodriguez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/antonmry/'
+          - icon: x-logo
+            url: 'https://x.com/antonmry'
       - name: Auri Muñoz
         id: auri-munoz
         company: IBM
-        bio: >-
+        bio: |-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           tempor aliquam tellus, sed euismod nunc vehicula et. Proin nec eros ac
           enim condimentum gravida. Mauris interdum nisl eu rutrum vehicula.
@@ -190,10 +204,37 @@ blocks:
             url: 'https://www.linkedin.com/in/aureamunozhernandez/'
           - icon: x-logo
             url: 'https://x.com/auritamh'
+      - name: David Gómez
+        id: david-gomez
+        company: Factorial
+        bio: |-
+          **Java Champion y co-organizador de MadridJUG**
+          
+          Espero poder hablar de la evolución de Java y de cómo vamos a desarrollar
+          buenos sistemas con Java en la era de los Agentes-IA
+        image: /files/people/DavidGomez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/dgomezg/'
+          - icon: x-logo
+            url: 'https://x.com/dgomezg'
+      - name: Iván López
+        id: ivan-lopez
+        bio: |-
+          **Java Champion, Principal Software Engineer y co-organizador de MadridJUG**
+          
+          Busco seguir en contacto con la comunidad Java para compartir conocimientos y
+          experiencias.
+        image: /files/people/IvanLopez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/ivanlopezmartin/'
+          - icon: x-logo
+            url: 'https://x.com/ilopmar'
       - name: Jerónimo López
         id: jeronimo-lopez
         company: Clarity AI
-        bio: >-
+        bio: |-
           Aenean a lacinia magna. Integer eget orci leo. Aliquam sit amet est
           fringilla arcu blandit lobortis non vel enim. Maecenas et odio purus.
           Phasellus tempus, erat sed sagittis rhoncus, nunc neque ornare mauris,
@@ -206,168 +247,6 @@ blocks:
             url: 'https://www.linkedin.com/in/jerolba/'
           - icon: x-logo
             url: 'https://x.com/jerolba'
-      - name: Iván López
-        id: ivan-lopez
-        company: xxxxxx
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/IvanLopez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/ivanlopezmartin/'
-          - icon: x-logo
-            url: 'https://x.com/ilopmar'
-      - name: David Gómez
-        id: david-gomez
-        company: Factorial
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/DavidGomez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/dgomezg/'
-          - icon: x-logo
-            url: 'https://x.com/dgomezg'
-      - name: Sin empresa
-        id: sin-empresa
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/avatar.webp
-        links: []
-      - name: Auri Muñoz
-        id: auri-munoz
-        company: IBM
-        bio: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          tempor aliquam tellus, sed euismod nunc vehicula et. Proin nec eros ac
-          enim condimentum gravida. Mauris interdum nisl eu rutrum vehicula.
-        image: /files/people/AureaMunoz.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/aureamunozhernandez/'
-      - name: Jerónimo López
-        id: jeronimo-lopez
-        company: Clarity AI
-        bio: >-
-          Aenean a lacinia magna. Integer eget orci leo. Aliquam sit amet est
-          fringilla arcu blandit lobortis non vel enim. Maecenas et odio purus.
-          Phasellus tempus, erat sed sagittis rhoncus, nunc neque ornare mauris,
-          eu consectetur lorem purus id est. Aenean ut hendrerit lectus.
-          Praesent quis semper lacus, in condimentum nisi. Suspendisse augue
-          quam, fermentum sed convallis vitae, tincidunt in sem.
-        image: /files/people/JeronimoLopez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/jerolba/'
-      - name: Iván López
-        id: ivan-lopez
-        company: xxxxxx
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/IvanLopez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/ivanlopezmartin/'
-      - name: David Gómez
-        id: david-gomez
-        company: Factorial
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/DavidGomez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/dgomezg/'
-      - name: Sin empresa
-        id: sin-empresa
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/avatar.webp
-        links: []
-      - name: Auri Muñoz
-        id: auri-munoz
-        company: IBM
-        bio: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          tempor aliquam tellus, sed euismod nunc vehicula et. Proin nec eros ac
-          enim condimentum gravida. Mauris interdum nisl eu rutrum vehicula.
-        image: /files/people/AureaMunoz.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/aureamunozhernandez/'
-      - name: Jerónimo López
-        id: jeronimo-lopez
-        company: Clarity AI
-        bio: >-
-          Aenean a lacinia magna. Integer eget orci leo. Aliquam sit amet est
-          fringilla arcu blandit lobortis non vel enim. Maecenas et odio purus.
-          Phasellus tempus, erat sed sagittis rhoncus, nunc neque ornare mauris,
-          eu consectetur lorem purus id est. Aenean ut hendrerit lectus.
-          Praesent quis semper lacus, in condimentum nisi. Suspendisse augue
-          quam, fermentum sed convallis vitae, tincidunt in sem.
-        image: /files/people/JeronimoLopez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/jerolba/'
-      - name: Iván López
-        id: ivan-lopez
-        company: xxxxxx
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/IvanLopez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/ivanlopezmartin/'
-      - name: David Gómez
-        id: david-gomez
-        company: Factorial
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/DavidGomez.jpg
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/dgomezg/'
-      - name: Sin empresa
-        id: sin-empresa
-        bio: >-
-          uis venenatis ante in ultrices lobortis. Praesent ac diam consectetur,
-          aliquet ligula a, hendrerit nulla. In sit amet purus ut lorem
-          consectetur cursus ut eu ligula. Praesent fringilla sed risus sed
-          imperdiet. Suspendisse mattis dolor in lorem cursus, ut elementum diam
-          imperdiet.
-        image: /files/people/avatar.webp
-        links: []
   - type: separator
     width: is-default
   - type: logos
