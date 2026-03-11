@@ -191,13 +191,14 @@ blocks:
             url: 'https://www.linkedin.com/in/antonmry/'
           - icon: x-logo
             url: 'https://x.com/antonmry'
-      - name: Auri Muñoz
+      - name: Áurea Muñoz
         id: auri-munoz
         company: IBM
         bio: |-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          tempor aliquam tellus, sed euismod nunc vehicula et. Proin nec eros ac
-          enim condimentum gravida. Mauris interdum nisl eu rutrum vehicula.
+          **Java Champion, Principal Software Engineer y co-organizadora de MadridJUG**
+          
+          Vengo a aprender de lo que está haciendo la comunidad, compartir lo que he ido descubriendo por el camino y, 
+          si hay suerte, salir con un par de ideas nuevas que probar el lunes
         image: /files/people/AureaMunoz.jpg
         links:
           - icon: linkedin-logo
