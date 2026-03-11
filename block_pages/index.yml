@@ -181,6 +181,9 @@ blocks:
       - alt: Incremental Steps
         img: /files/logos/IncrementalSteps.png
         url: 'https://incsteps.com/'
+      - alt: MasOrange
+        img: /files/logos/MasOrange.png
+        url: 'https://masorange.es/'
       - alt: MadridGUG
         img: /files/logos/MadridGUG.png
         url: 'https://www.madridgug.com/'
