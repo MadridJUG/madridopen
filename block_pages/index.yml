@@ -192,7 +192,7 @@ blocks:
           - icon: x-logo
             url: 'https://x.com/antonmry'
       - name: Áurea Muñoz
-        id: auri-munoz
+        id: aurea-munoz
         company: IBM
         bio: |-
           **Java Champion, Principal Software Engineer y co-organizadora de MadridJUG**
@@ -224,9 +224,6 @@ blocks:
         company: StarTree
         bio: |-
           **Apache Pinot Committer**
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          tempor aliquam tellus
         image: /files/people/GonzaloOrtiz.jpg
         links:
           - icon: linkedin-logo
@@ -235,6 +232,7 @@ blocks:
             url: 'https://x.com/gortizja'
       - name: Iván López
         id: ivan-lopez
+        company: MasOrange
         bio: |-
           **Java Champion, Principal Software Engineer y co-organizador de MadridJUG**
           
@@ -250,12 +248,7 @@ blocks:
         id: jeronimo-lopez
         company: Clarity AI
         bio: |-
-          Aenean a lacinia magna. Integer eget orci leo. Aliquam sit amet est
-          fringilla arcu blandit lobortis non vel enim. Maecenas et odio purus.
-          Phasellus tempus, erat sed sagittis rhoncus, nunc neque ornare mauris,
-          eu consectetur lorem purus id est. Aenean ut hendrerit lectus.
-          Praesent quis semper lacus, in condimentum nisi. Suspendisse augue
-          quam, fermentum sed convallis vitae, tincidunt in sem.
+          **Staff Software Engineer**
         image: /files/people/JeronimoLopez.jpg
         links:
           - icon: linkedin-logo
@@ -263,27 +256,31 @@ blocks:
           - icon: x-logo
             url: 'https://x.com/jerolba'
       - name: JMiguel Rodríguez
-        id: jmigue-rodriguez
+        id: jmiguel-rodriguez
         company: Clarity AI
         bio: |-
-          **Aenean a lacinia magna**
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          tempor aliquam tellus
+          **Senior Software Engineer**
         image: /files/people/JMiguelRodriguez.jpg
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/jmiguelrodriguez/'
           - icon: x-logo
             url: 'https://x.com/jmiguel'
+      - name: Jorge Aguilera
+        id: jorge-aguilera
+        company: Incremental Steps
+        bio: |-
+          **Abuelo Cebolleta**
+
+          Este será mi segundo OpenSpace y estoy deseando que llegue para poder
+          compartir experiencias e ideas en un entorno tan acogedor
+        image: /files/people/JorgeAguilera.jpg
+        links: []
       - name: Jose Ignacio Domínguez
         id: joseignacio-dominguez
         company: Clarity AI
         bio: |-
-          **Aenean a lacinia magna**
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          tempor aliquam tellus
+          **Staff Software Engineer**
         image: /files/people/avatar.webp
         links:
           - icon: linkedin-logo
