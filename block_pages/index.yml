@@ -210,10 +210,10 @@ blocks:
         id: david-gomez
         company: Factorial
         bio: |-
-          **Java Champion y co-organizador de MadridJUG**
+          **Java Champion, Staff Software Engineer y co-organizador de MadridJUG**
           
-          Espero poder hablar de la evolución de Java y de cómo vamos a desarrollar
-          buenos sistemas con Java en la era de los Agentes-IA
+          Espero volver a coincidir y charlar con mucha gente que hace tiempo que no veo. Ponernos al día y compartir cómo 
+          nos enfrentamos al reto de seguir construyendo sistemas complejos y robustos en la era de los Agentes-IA.
         image: /files/people/DavidGomez.jpg
         links:
           - icon: linkedin-logo
