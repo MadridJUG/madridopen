@@ -178,6 +178,20 @@ blocks:
     id: quien-viene
     theme: width-full
     speakers:
+      - name: Álvaro Sánchez-Mariscal
+        id: alvaro-sanchez-mariscal
+        company: Oracle
+        bio: |-
+          **Principal Member of Technical Staff**
+
+          Me gusta aprender de muchos otros que saben más que yo, y hablar con los pocos
+          programadores humanos que quedan antes del apocalipsis.
+        image: /files/people/AlvaroSanchezMariscal.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/mariscal'
+          - icon: x-logo
+            url: 'https://x.com/alvaro_sanchez'
       - name: Antón Rodríguez
         id: anton-rodriguez
         company: Phoebe AI
