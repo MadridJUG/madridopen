@@ -5,6 +5,9 @@ menu:
   - text: Lugar
     url: '#location'
     highlight: false
+  - text: ¿Quién viene?
+    url: '#quien-viene'
+    highlight: false
   - text: Partners
     url: '#partners'
     highlight: false
@@ -162,6 +165,141 @@ blocks:
       - title: Metro
         description: Nuevos Ministerios o Santiago Bernabéu
         icon: train-simple
+  - type: separator
+    width: is-default
+  - type: speakers
+    title: ¿Quién viene?
+    description: |-
+      **JMad** es sobre todo una excusa para juntarnos y conocernos. Aquí puedes ver
+      a algunas de las personas que asistirán al evento y que han querido
+      compartir una pequeña presentación. Así podemos poner cara a la comunidad
+      antes de vernos en persona. Si vienes y te apetece aparecer aquí,
+      ¡envíanos tu foto y unas líneas sobre ti!
+    id: quien-viene
+    theme: width-full
+    speakers:
+      - name: Álvaro Sánchez-Mariscal
+        id: alvaro-sanchez-mariscal
+        company: Oracle
+        bio: |-
+          **Principal Member of Technical Staff**
+
+          Me gusta aprender de muchos otros que saben más que yo, y hablar con los pocos
+          programadores humanos que quedan antes del apocalipsis.
+        image: /files/people/AlvaroSanchezMariscal.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/mariscal'
+          - icon: x-logo
+            url: 'https://x.com/alvaro_sanchez'
+      - name: Antón Rodríguez
+        id: anton-rodriguez
+        company: Phoebe AI
+        bio: |-
+          **Java Champion, Software Engineer y PhD student en Data & Agentic engineering**
+
+          Busco compartir experiencias, aprender de la fantástica comunidad
+          javera local y nacional...  Y una cerveza 0.0 con viejos amigos.
+        image: /files/people/AntonRodriguez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/antonmry'
+          - icon: x-logo
+            url: 'https://x.com/antonmry'
+      - name: Áurea Muñoz
+        id: aurea-munoz
+        company: IBM
+        bio: |-
+          **Java Champion, Principal Software Engineer y co-organizadora de MadridJUG**
+          
+          Vengo a aprender de lo que está haciendo la comunidad, compartir lo que he ido descubriendo por el camino y, 
+          si hay suerte, salir con un par de ideas nuevas que probar el lunes.
+        image: /files/people/AureaMunoz.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/aureamunozhernandez'
+          - icon: x-logo
+            url: 'https://x.com/auritamh'
+      - name: David Gómez
+        id: david-gomez
+        company: Factorial
+        bio: |-
+          **Java Champion, Staff Software Engineer y co-organizador de MadridJUG**
+          
+          Espero volver a coincidir y charlar con mucha gente que hace tiempo que no veo. Ponernos al día y compartir cómo 
+          nos enfrentamos al reto de seguir construyendo sistemas complejos y robustos en la era de los Agentes-IA.
+        image: /files/people/DavidGomez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/dgomezg'
+          - icon: x-logo
+            url: 'https://x.com/dgomezg'
+      - name: Gonzalo Ortiz
+        id: gonzalo-ortiz
+        company: StarTree
+        bio: |-
+          **Apache Pinot Committer**
+        image: /files/people/GonzaloOrtiz.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/gortizja'
+          - icon: x-logo
+            url: 'https://x.com/gortizja'
+      - name: Iván López
+        id: ivan-lopez
+        company: MasOrange
+        bio: |-
+          **Java Champion, Principal Software Engineer y co-organizador de MadridJUG**
+          
+          Busco seguir en contacto con la comunidad Java para compartir conocimientos y
+          experiencias.
+        image: /files/people/IvanLopez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/ivanlopezmartin'
+          - icon: x-logo
+            url: 'https://x.com/ilopmar'
+      - name: Jerónimo López
+        id: jeronimo-lopez
+        company: Clarity AI
+        bio: |-
+          **Staff Software Engineer**
+        image: /files/people/JeronimoLopez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/jerolba'
+          - icon: x-logo
+            url: 'https://x.com/jerolba'
+      - name: JMiguel Rodríguez
+        id: jmiguel-rodriguez
+        company: Clarity AI
+        bio: |-
+          **Senior Software Engineer**
+        image: /files/people/JMiguelRodriguez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/jmiguelrodriguez'
+          - icon: x-logo
+            url: 'https://x.com/jmiguel'
+      - name: Jorge Aguilera
+        id: jorge-aguilera
+        company: Incremental Steps
+        bio: |-
+          **Abuelo Cebolleta**
+
+          Este será mi segundo OpenSpace y estoy deseando que llegue para poder
+          compartir experiencias e ideas en un entorno tan acogedor.
+        image: /files/people/JorgeAguilera.jpg
+        links: []
+      - name: Jose Ignacio Domínguez
+        id: joseignacio-dominguez
+        company: Clarity AI
+        bio: |-
+          **Staff Software Engineer**
+        image: /files/people/avatar.webp
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/joseignaciodominguez/'
   - type: separator
     width: is-default
   - type: logos
