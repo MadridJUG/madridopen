@@ -178,6 +178,17 @@ blocks:
     id: quien-viene
     theme: width-full
     speakers:
+      - name: Álvaro Moraleda
+        id: alvaro-moraleda
+        company: Cabify
+        bio: |-
+          **Senior Product Engineer**
+
+          Disfruto creando productos. Del OpenSpace espero aprender de la comunidad y conocer a gente.
+        image: /files/people/AlvaroMoraleda.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/alvaromoraleda/'
       - name: Álvaro Sánchez-Mariscal
         id: alvaro-sanchez-mariscal
         company: Oracle
