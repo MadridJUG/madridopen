@@ -6,24 +6,42 @@ menu:
 blocks:
   - type: header
     title: Entradas
-    description: >-
-      El importe de las entradas va íntegramente a cubrir los costes del evento:
-      ticketing y comida.
+    description: |-
+      El precio de la entrada se destina íntegramente a cubrir los costes del
+      evento, como el sistema de ticketing y la comida.
+
+      JMad es un evento organizado de forma voluntaria: todo el equipo dedica su
+      tiempo y esfuerzo para crear un espacio accesible e inclusivo para la comunidad.
+      Nadie del equipo obtiene beneficio económico del evento.
   - type: tickets
     id: tickets
     theme: is-light width-box box-fill
     features:
       - id: entrada
-        text: Entrada al evento y comida.
+        text: |- 
+          **Entrada al evento y comida.**
       - id: diversity
-        text: >-
-          Entrada al evento y comida.
-          Los tickets de diversity son para quien sienta que pertenece a algún colectivo infra-representado.
-          No hay ninguna restricción y puedes comprar este ticket si crees que te ayuda a participar en el evento.
+        text: |-
+          **Entrada al evento y comida.**
+          
+          Las entradas Diversity están pensadas
+          para facilitar la participación de personas que sienten que pertenecen
+          a colectivos infra-representados dentro de la comunidad tecnológica.
+          Por ejemplo, mujeres, personas LGTBIQ+, personas con discapacidad,
+          inmigrantes, estudiantes, parados o personas en sus primeros años de
+          carrera, entre otros.  
+          No hay ningún tipo de comprobación ni restricción: si crees que
+          esta entrada te ayuda a poder asistir al evento, eres bienvenido/a a
+          comprarla.  
+          Nuestro objetivo es hacer JMad más accesible e inclusivo para todas las personas.
       - id: sponsor
-        text: >-
-          Sponsor: Incluye tres entradas al evento, logo en la web, anuncios y agradecimientos
-          en redes sociales, mención en apertura y cierre.
+        text: |-
+          **Sponsor**.
+          
+          Incluye tres entradas al evento, logo en la web, anuncios y agradecimientos
+          en redes sociales, mención en apertura y cierre.  
+          Estamos abiertos a propuestas de sponsor y distintas formas de colaborar, contacta con
+          nosotros en **madridjug-coordinators@googlegroups.com**
     tickets:
       - name: Entrada general
         pricing: 35€ (IVA incluido)
@@ -51,7 +69,6 @@ blocks:
           url: 'https://my.weezevent.com/jmad-openspace-2026'
           disabled: false
         features:
-          - entrada
           - sponsor
 title: Tickets
 metas:
