@@ -270,6 +270,10 @@ blocks:
             url: 'https://www.linkedin.com/in/ivanlopezmartin'
           - icon: x-logo
             url: 'https://x.com/ilopmar'
+          - icon: butterfly
+            url: 'https://bsky.app/profile/ilopmar.bsky.social'
+          - icon: mastodon-logo
+            url: 'https://mastodon.social/@ilopmar'
       - name: Jerónimo López
         id: jeronimo-lopez
         company: Clarity AI
