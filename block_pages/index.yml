@@ -172,11 +172,8 @@ blocks:
     description: |-
       **JMad** es sobre todo una excusa para juntarnos y conocernos. Aquí puedes ver
       a algunas de las personas que asistirán al evento y que han querido
-
       compartir una pequeña presentación. Así podemos poner cara a la comunidad
-
       antes de vernos en persona. Si vienes y te apetece aparecer aquí,
-
       ¡envíanos tu foto y unas líneas sobre ti!
     id: quien-viene
     theme: width-full
@@ -226,7 +223,8 @@ blocks:
         bio: |-
           **Senior Architect | Postgraduate student en Cloud Architecture | Barcelona JUG & Software Crafters board member**
 
-          Busco compartir y conocer compañeros del MadridJug que usualmente veo en remoto. También, quiero compartir experiencias sobre cómo garantizar la calidad del código en sistemas escritos por agentes de código IA.
+          Busco compartir y conocer compañeros del MadridJug que usualmente veo en remoto. También, quiero compartir
+          experiencias sobre cómo garantizar la calidad del código en sistemas escritos por agentes de código IA.
         image: /files/people/AnyulRivas.jpg
         links:
           - icon: linkedin-logo
@@ -307,9 +305,10 @@ blocks:
       - name: Jerónimo López
         id: jeronimo-lopez
         company: Clarity AI
-        bio: >-
-          **Staff Software Engineer**. Espero disfrutar del formato Open Space. Es uno de los mejores
-          formatos para aprender y compartir experiencias.
+        bio: |-
+          **Staff Software Engineer**.
+
+          Espero disfrutar del formato Open Space. Es uno de los mejores formatos para aprender y compartir experiencias.
         image: /files/people/JeronimoLopez.jpg
         links:
           - icon: linkedin-logo
@@ -322,11 +321,8 @@ blocks:
         bio: |-
           **Senior Software Programero**
 
-
           Mucho tiempo al teclado y muchos vicios por corregir.
-
-          De un Openspace nunca sabes con que nuevas ideas vas salir, pero nunca sales de vacio. Todos tenemos ideas que compartir.
-
+          De un Openspace nunca sabes con que nuevas ideas vas salir, pero nunca sales de vacío. Todos tenemos ideas que compartir.
         image: /files/people/JMiguelRodriguez.jpg
         links:
           - icon: linkedin-logo
@@ -346,15 +342,13 @@ blocks:
       - name: Jorge Hidalgo
         id: jorge-hidalgo
         company: Accenture
-        bio: >-
-          **Java Champion | MalagaJUG lead | Associate Director | Software &
-          Platform Engineering | Technology Architect | Global Java CoP
-          Co-lead**
-
+        bio: |-
+          **Java Champion | MalagaJUG lead | Associate Director | Software & Platform Engineering | Technology Architect | Global Java CoP Co-lead**
 
           Una ocasión única de poder pasar un día con compañeros de las comunidades Java de toda España, sin guión establecido solo con las cosas que nos interesan o de las que queremos aprender más.
 
-          Todo lo que no obtienes normalmente en una conferencia o en charlas online: conexión, conversación, compartir experiencias cara a cara y disfrutar en un ambiente relajado.
+          Todo lo que no obtienes normalmente en una conferencia o en charlas online: conexión, conversación,
+          compartir experiencias cara a cara y disfrutar en un ambiente relajado.
         image: /files/people/JorgeHidalgo.jpg
         links:
           - icon: linkedin-logo
@@ -373,9 +367,10 @@ blocks:
       - name: Yeray Darias
         id: yeray-darias
         company: IBM
-        bio: >-
-          Software developer ... sometimes I'm like The Wolf, I solve problems
-          (and I bake cookies)
+        bio: |-
+          **Software developer**
+
+          Sometimes I'm like The Wolf, I solve problems (and I bake cookies)
         image: /files/people/YerayDarias.jpg
         links:
           - icon: linkedin-logo
