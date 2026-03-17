@@ -217,6 +217,23 @@ blocks:
             url: 'https://www.linkedin.com/in/antonmry'
           - icon: x-logo
             url: 'https://x.com/antonmry'
+      - name: Anyul Rivas
+        id: anyul-rivas
+        company: GFT
+        bio: |-
+          **Senior Architect | Postgraduate student en Cloud Architecture | Barcelona JUG & Software Crafters board member**
+
+          Busco compartir y conocer compañeros del MadridJug que usualmente veo en remoto. También, quiero compartir experiencias sobre cómo garantizar la calidad del código en sistemas escritos por agentes de código IA.
+        image: /files/people/AnyulRivas.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://linkedin.com/in/anyulled'
+          - icon: x-logo
+            url: 'https://x.com/anyulled'
+          - icon: butterfly
+            url: 'https://bsky.app/profile/anyulled.bsky.social'
+          - icon: github-logo
+            url: 'https://github.com/anyulled'
       - name: Áurea Muñoz
         id: aurea-munoz
         company: IBM
