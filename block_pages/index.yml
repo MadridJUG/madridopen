@@ -172,8 +172,11 @@ blocks:
     description: |-
       **JMad** es sobre todo una excusa para juntarnos y conocernos. Aquí puedes ver
       a algunas de las personas que asistirán al evento y que han querido
+
       compartir una pequeña presentación. Así podemos poner cara a la comunidad
+
       antes de vernos en persona. Si vienes y te apetece aparecer aquí,
+
       ¡envíanos tu foto y unas líneas sobre ti!
     id: quien-viene
     theme: width-full
@@ -239,8 +242,8 @@ blocks:
         company: IBM
         bio: |-
           **Java Champion, Principal Software Engineer y co-organizadora de MadridJUG**
-          
-          Vengo a aprender de lo que está haciendo la comunidad, compartir lo que he ido descubriendo por el camino y, 
+
+          Vengo a aprender de lo que está haciendo la comunidad, compartir lo que he ido descubriendo por el camino y,
           si hay suerte, salir con un par de ideas nuevas que probar el lunes.
         image: /files/people/AureaMunoz.jpg
         links:
@@ -253,8 +256,8 @@ blocks:
         company: Factorial
         bio: |-
           **Java Champion, Staff Software Engineer y co-organizador de MadridJUG**
-          
-          Espero volver a coincidir y charlar con mucha gente que hace tiempo que no veo. Ponernos al día y compartir cómo 
+
+          Espero volver a coincidir y charlar con mucha gente que hace tiempo que no veo. Ponernos al día y compartir cómo
           nos enfrentamos al reto de seguir construyendo sistemas complejos y robustos en la era de los Agentes-IA.
         image: /files/people/DavidGomez.jpg
         links:
@@ -288,7 +291,7 @@ blocks:
         company: MasOrange
         bio: |-
           **Java Champion, Principal Software Engineer y co-organizador de MadridJUG**
-          
+
           Busco seguir en contacto con la comunidad Java para compartir conocimientos y
           experiencias.
         image: /files/people/IvanLopez.jpg
@@ -304,8 +307,9 @@ blocks:
       - name: Jerónimo López
         id: jeronimo-lopez
         company: Clarity AI
-        bio: |-
-          **Staff Software Engineer**
+        bio: >-
+          **Staff Software Engineer**. Espero disfrutar del formato Open Space. Es uno de los mejores
+          formatos para aprender y compartir experiencias.
         image: /files/people/JeronimoLopez.jpg
         links:
           - icon: linkedin-logo
@@ -317,10 +321,11 @@ blocks:
         company: Clarity AI
         bio: |-
           **Senior Software Programero**
-          
-          Mucho tiempo al teclado y muchos vicios por corregir. 
-          
-          De un Openspace nunca sabes con que nuevas ideas vas salir, pero nunca sales de vacio. Todos tenemos ideas que compartir. 
+
+
+          Mucho tiempo al teclado y muchos vicios por corregir.
+
+          De un Openspace nunca sabes con que nuevas ideas vas salir, pero nunca sales de vacio. Todos tenemos ideas que compartir.
 
         image: /files/people/JMiguelRodriguez.jpg
         links:
@@ -341,8 +346,11 @@ blocks:
       - name: Jorge Hidalgo
         id: jorge-hidalgo
         company: Accenture
-        bio: |-
-          **Java Champion | MalagaJUG lead | Associate Director | Software & Platform Engineering | Technology Architect | Global Java CoP Co-lead**
+        bio: >-
+          **Java Champion | MalagaJUG lead | Associate Director | Software &
+          Platform Engineering | Technology Architect | Global Java CoP
+          Co-lead**
+
 
           Una ocasión única de poder pasar un día con compañeros de las comunidades Java de toda España, sin guión establecido solo con las cosas que nos interesan o de las que queremos aprender más.
 
@@ -362,6 +370,18 @@ blocks:
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/joseignaciodominguez/'
+      - name: Yeray Darias
+        id: yeray-darias
+        company: IBM
+        bio: >-
+          Software developer ... sometimes I'm like The Wolf, I solve problems
+          (and I bake cookies)
+        image: /files/people/YerayDarias.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/ydarias/'
+          - icon: x-logo
+            url: 'https://x.com/ydarias'
   - type: separator
     width: is-default
   - type: logos
