@@ -245,6 +245,16 @@ blocks:
             url: 'https://www.linkedin.com/in/dgomezg'
           - icon: x-logo
             url: 'https://x.com/dgomezg'
+          - icon: butterfly
+            url: 'https://bsky.app/profile/dgomezg.bsky.social'
+          - icon: mastodon-logo
+            url: 'https://mastodon.social/@dgomezg'
+          - icon: github-logo
+            url: 'https://github.com/dgomezg'
+          - icon: instagram-logo
+            url: 'https://www.instagram.com/dgomezg.dev'
+          - icon: globe
+            url: 'https://dgomezg.dev/'
       - name: Gonzalo Ortiz
         id: gonzalo-ortiz
         company: StarTree
@@ -311,15 +321,6 @@ blocks:
           compartir experiencias e ideas en un entorno tan acogedor.
         image: /files/people/JorgeAguilera.jpg
         links: []
-      - name: Jose Ignacio Domínguez
-        id: joseignacio-dominguez
-        company: Clarity AI
-        bio: |-
-          **Staff Software Engineer**
-        image: /files/people/avatar.webp
-        links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/joseignaciodominguez/'
       - name: Jorge Hidalgo
         id: jorge-hidalgo
         company: Accenture
@@ -335,6 +336,15 @@ blocks:
             url: 'https://www.linkedin.com/in/deors/'
           - icon: x-logo
             url: 'https://x.com/deors314'
+      - name: Jose Ignacio Domínguez
+        id: joseignacio-dominguez
+        company: Clarity AI
+        bio: |-
+          **Staff Software Engineer**
+        image: /files/people/avatar.webp
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/joseignaciodominguez/'
   - type: separator
     width: is-default
   - type: logos
