@@ -213,10 +213,12 @@ blocks:
           javera local y nacional...  Y una cerveza 0.0 con viejos amigos.
         image: /files/people/AntonRodriguez.jpg
         links:
-          - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/antonmry'
           - icon: butterfly
             url: 'https://bsky.app/profile/anton.galiglobal.com'
+          - icon: github-logo
+            url: 'https://github.com/antonmry'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/antonmry'
       - name: Anyul Rivas
         id: anyul-rivas
         company: GFT
