@@ -215,8 +215,8 @@ blocks:
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/antonmry'
-          - icon: x-logo
-            url: 'https://x.com/antonmry'
+          - icon: butterfly
+            url: 'https://bsky.app/profile/anton.galiglobal.com'
       - name: Anyul Rivas
         id: anyul-rivas
         company: GFT
