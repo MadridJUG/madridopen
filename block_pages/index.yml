@@ -327,10 +327,14 @@ blocks:
           De un Openspace nunca sabes con que nuevas ideas vas salir, pero nunca sales de vacío. Todos tenemos ideas que compartir.
         image: /files/people/JMiguelRodriguez.jpg
         links:
+          - icon: globe
+            url: 'https://jmiguel.eu/'
+          - icon: mastodon-logo
+            url: 'https://tkz.one/@jmiguel'
+          - icon: butterfly
+            url: 'https://bsky.app/profile/jmiguel.eu'
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/jmiguelrodriguez'
-          - icon: x-logo
-            url: 'https://x.com/jmiguel'
       - name: Jorge Aguilera
         id: jorge-aguilera
         company: Incremental Steps
