@@ -345,6 +345,18 @@ blocks:
           compartir experiencias e ideas en un entorno tan acogedor.
         image: /files/people/JorgeAguilera.jpg
         links: []
+      - name: Jorge Aranda
+        id: jorge-aranda
+        company: Nyxell
+        bio: |-
+          **Product Tech Lead**
+
+          Llevo desarrollando con Java/Kotlin unos 14 años. Me apasiona la tecnología y espero conocer gente muy interesante y,
+          sobre todo, aprender.
+        image: /files/people/JorgeAranda.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/jorgearanda123/'
       - name: Jorge Hidalgo
         id: jorge-hidalgo
         company: Accenture
