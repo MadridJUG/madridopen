@@ -247,3 +247,10 @@ top-youtube {
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* Force 3 partners per row on tablet/desktop */
+@media (min-width: 700px) {
+  #partners .block-logos-list {
+    grid-template-columns: repeat(3, var(--width, 200px));
+  }
+}
