@@ -417,6 +417,9 @@ blocks:
       - alt: MasOrange
         img: /files/logos/MasOrange.png
         url: 'https://masorange.es/'
+      - alt: Vaadin
+        img: /files/logos/Vaadin.png
+        url: 'https://vaadin.com/'
       - alt: MadridGUG
         img: /files/logos/MadridGUG.png
         url: 'https://www.madridgug.com/'
