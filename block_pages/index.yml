@@ -178,6 +178,20 @@ blocks:
     id: quien-viene
     theme: width-full
     speakers:
+      - name: Alberto Sánchez Bardanca
+        id: alberto-sanchez-bardanca
+        company: Abanca
+        bio: |-
+          **Senior Information Technology Specialist**
+
+          Hace poco que acabo de "heredar" el Coruña JUG. Me encanta programar, me encantan los open space,
+          ¿se os ocurre un plan mejor que ir un sábado a Madrid a conocer a un montón de gente interesante?.
+        image: /files/people/AlbertoSanchez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/alberto-sanchez-bardanca/'
+          - icon: x-logo
+            url: 'https://x.com/Bardabasada'
       - name: Álvaro Moraleda
         id: alvaro-moraleda
         company: Cabify
