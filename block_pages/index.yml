@@ -396,6 +396,18 @@ blocks:
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/joseignaciodominguez/'
+      - name: Julio César Estravis
+        id: julio-cesar-estravis
+        company: Globant
+        bio: |-
+          **Software Engineer en Globant**
+
+          Hace años trato de ir a eventos que me mantengan en contacto con la comunidad y en esta ocasión espero conocer nuevas
+          perspectivas de compañeros de otras ciudades, así como quizás compartir alguna experiencia propia.
+        image: /files/people/JulioCesarEstravis.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/julio-cesar-estravis/'
       - name: Yeray Darias
         id: yeray-darias
         company: IBM
