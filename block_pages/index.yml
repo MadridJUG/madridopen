@@ -456,6 +456,9 @@ blocks:
       - alt: Vaadin
         img: /files/logos/Vaadin.png
         url: 'https://vaadin.com/'
+      - alt: JetBrains
+        img: /files/logos/JetBrains.png
+        url: 'https://jetbrains.com/'
       - alt: MadridGUG
         img: /files/logos/MadridGUG.png
         url: 'https://www.madridgug.com/'
