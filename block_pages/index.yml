@@ -408,6 +408,16 @@ blocks:
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/julio-cesar-estravis/'
+      - name: Manolo Carrasco
+        id: manolo-carrasco
+        company: Vaadin
+        bio: |-
+          **Release Lead en Vaadin**
+
+          Me apetece mucho volver a coincidir con amigos de la comunidad, conocer gente nueva y charlar sobre Java, open source,
+          tecnología y todo lo que se nos venga encima en los próximos años.
+        image: /files/people/ManoloCarrasco.jpg
+        links: []
       - name: Yeray Darias
         id: yeray-darias
         company: IBM
