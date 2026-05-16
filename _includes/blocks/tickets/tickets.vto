@@ -81,20 +81,13 @@
         <ul class="tickets-features">
           {{ for feature of block.features }}
             {{ set ok = ticket.features.includes(feature.id) }}
-            <li class="ticket-feature">
-              <div class="ticket-feature-title">
-                {{ feature.text |> md }}
-              </div>
-              <div
-                class="ticket-feature-value is-{{ ok ? 'included' : 'missing' }}"
-              >
-                {{ if ok }}
-                  {{ "check-circle" |> icon }}
-                {{ else }}
-                  {{ "x" |> icon("regular") }}
-                {{ /if }}
-              </div>
-            </li>
+            {{ if ok }}
+              <li class="ticket-feature">
+                <div class="ticket-feature-title">
+                  {{ feature.text |> md }}
+                </div>
+              </li>
+            {{ /if }}
           {{ /for }}
         </ul>
       </li>
