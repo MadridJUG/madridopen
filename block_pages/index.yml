@@ -418,6 +418,21 @@ blocks:
           tecnología y todo lo que se nos venga encima en los próximos años.
         image: /files/people/ManoloCarrasco.jpg
         links: []
+      - name: Ricardo Rocha
+        id: ricardo-rocha
+        company: Plenix US
+        bio: |-
+          **Software Engineer**
+
+          Desarrollador retirado y en recuperación. Activo en Java y JVM desde sus inicios. Arquitecto en Sun Microsystems (JavaFX),
+          committer de Apache, y consultor independiente. Especialmente interesado en lenguajes alternativos de la JVM (Clojure, Scala,
+          Kotlin,...).  
+          Deseoso de conocer nuevos colegas españoles luego de una larga vida profesional en los Estados Unidos e
+          Hispanoamérica (y alguna vez en la madre patria, también 🇪🇸♥️).
+        image: /files/people/RicardoRocha.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/xrrocha/'
       - name: Yeray Darias
         id: yeray-darias
         company: IBM
