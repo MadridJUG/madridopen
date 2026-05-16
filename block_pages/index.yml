@@ -433,6 +433,8 @@ blocks:
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/xrrocha/'
+          - icon: github-logo
+            url: 'https://github.com/xrrocha'
       - name: Yeray Darias
         id: yeray-darias
         company: IBM
